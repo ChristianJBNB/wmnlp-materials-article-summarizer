@@ -1,0 +1,1095 @@
+  <!doctype html>
+<html class="" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Data-driven storytelling.">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]},distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"1588640526",accountID:"3422235",trustKey:"66686",xpid:"VwIFU1RQDRABUVNQAQUOUlcA",licenseKey:"NRJS-034728da04015584270",applicationID:"1522649431"};;/*! For license information please see nr-loader-spa-1.256.1.min.js.LICENSE.txt */
+(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>m,Mt:()=>b,C5:()=>s,DL:()=>E,OP:()=>N,lF:()=>D,Yu:()=>x,Dg:()=>v,CX:()=>c,GE:()=>w,sU:()=>O});var n=r(8632),i=r(9567);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const r=(0,n.ek)(e);r&&(r.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(7056),l=r(50);const f="[data-nr-mask]",h=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},soft_navigations:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},g="All configuration objects require an agent identifier!";function m(e){if(!e)throw new Error(g);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function v(e,t){if(!e)throw new Error(g);p[e]=(0,i.D)(t,h());const r=(0,n.ek)(e);r&&(r.init=p[e])}function b(e,t){if(!e)throw new Error(g);var r=m(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A={};function E(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!A[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return A[e]}function w(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");A[e]=(0,i.D)(t,y);const r=(0,n.ek)(e);r&&(r.loader_config=A[e])}const x=(0,n.mF)().o;var _=r(385),T=r(6818);const S={buildEnv:T.Re,customTransaction:void 0,disabled:!1,distMethod:T.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(_._A?.performance?.timeOrigin||_._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+_._A.location,ptid:void 0,releaseIds:{},appMetadata:{},session:void 0,xhrWrappable:"function"==typeof _._A.XMLHttpRequest?.prototype?.addEventListener,version:T.q4,denyList:void 0,harvestCount:0,timeKeeper:void 0},R={};function N(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!R[e])throw new Error("Runtime for ".concat(e," was never set"));return R[e]}function O(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");R[e]=(0,i.D)(t,S);const r=(0,n.ek)(e);r&&(r.runtime=R[e])}function D(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>o,lF:()=>a,q4:()=>n});const n="1.256.1",i="PROD",o="CDN",a="2.0.0-alpha.12"},385:(e,t,r)=>{"use strict";r.d(t,{FN:()=>c,IF:()=>l,LW:()=>a,Nk:()=>h,Tt:()=>u,_A:()=>o,cv:()=>p,iS:()=>s,il:()=>n,ux:()=>d,v6:()=>i,w1:()=>f});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a="complete"===o?.document?.readyState,s=Boolean("hidden"===o?.document?.visibilityState),c=""+o?.location,u=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=(()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),f=Boolean(n&&window.document.documentMode),h=!!o.navigator?.sendBeacon,p=Math.floor(Date.now()-performance.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occurred while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{LP:()=>l,RP:()=>c,o5:()=>u});var n=r(8325),i=r(1284),o=r(4322),a=r(3325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};d(e),s[e].get(t)||s[e].set(t,r)}function u(e,t){d(e),s[e].get(t)&&s[e].delete(t),s[e].size&&f(e)}function d(e){if(!e)throw new Error("agentIdentifier required");s[e]||(s[e]=new Map)}function l(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature",r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if(d(e),!e||!s[e].get(t)||r)return h(e,t);s[e].get(t).staged=!0,f(e)}function f(e){const t=[...s[e]];t.every((e=>{let[t,r]=e;return r.staged}))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((t=>{let[r]=t;s[e].delete(r),h(e,r)})))}function h(e,t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)p(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}r.isolatedBacklog||delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}function p(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),o=r(234);class a{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=h(n),c=g(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var p=v()[s[e]];p&&p.push([f,e,r,a]);return a},get:m,listeners:g,context:h,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function h(e){return e&&e instanceof a?e:e?(0,i.X)(e,c,(()=>new a(c))):new a(c)}function p(e,t){n[e]=g(e).concat(t)}function g(e){return n[e]||[]}function m(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),d=(0,n.fP)();d.ee||(d.ee=u)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(5546);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Ht:()=>u,M:()=>c,Rl:()=>a,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}function c(){return s(16)}function u(){return s(32)}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>a,IK:()=>u,K4:()=>i,oD:()=>o,uT:()=>c,wO:()=>s});const n="NRBA",i="SESSION",o=144e5,a=18e5,s={PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},7894:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{z:()=>n})},7243:(e,t,r)=>{"use strict";r.d(t,{e:()=>i});var n=r(385);function i(e){if(0===(e||"").indexOf("data:"))return{protocol:"data"};try{const t=new URL(e,location.href),r={port:t.port,hostname:t.hostname,pathname:t.pathname,search:t.search,protocol:t.protocol.slice(0,t.protocol.indexOf(":")),sameOrigin:t.protocol===n._A?.location?.protocol&&t.host===n._A?.location?.host};return r.port&&""!==r.port||("http:"===t.protocol&&(r.port="80"),"https:"===t.protocol&&(r.port="443")),r.pathname&&""!==r.pathname?r.pathname.startsWith("/")||(r.pathname="/".concat(r.pathname)):r.pathname="/",r}catch(e){return{}}}},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>c,T:()=>s});var n=r(8325),i=r(385);const o="newrelic";const a=new Set,s={};function c(e,t){const r=n.ee.get(t);s[t]??={},e&&"object"==typeof e&&(a.has(t)||(r.emit("rumresp",[e]),s[t]=e,a.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{i._A.dispatchEvent(new CustomEvent(o,{detail:e}))}catch(e){}}({loaded:!0})))}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},7872:(e,t,r)=>{"use strict";function n(e){var t=this;let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:500,n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{};const i=n?.leading||!1;let o;return function(){for(var n=arguments.length,a=new Array(n),s=0;s<n;s++)a[s]=arguments[s];i&&void 0===o&&(e.apply(t,a),o=setTimeout((()=>{o=clearTimeout(o)}),r)),i||(clearTimeout(o),o=setTimeout((()=>{e.apply(t,a)}),r))}}function i(e){var t=this;let r=!1;return function(){if(!r){r=!0;for(var n=arguments.length,i=new Array(n),o=0;o<n;o++)i[o]=arguments[o];e.apply(t,i)}}}r.d(t,{D:()=>n,Z:()=>i})},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>o});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>a,b2:()=>o});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(385),i=r(7894);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return n._A.NREUM||(n._A.NREUM={}),void 0===n._A.newrelic&&(n._A.newrelic=n._A.NREUM),n._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:n._A.setTimeout,SI:n._A.setImmediate,CT:n._A.clearTimeout,XHR:n._A.XMLHttpRequest,REQ:n._A.Request,EV:n._A.Event,PR:n._A.Promise,MO:n._A.MutationObserver,FETCH:n._A.fetch}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,i.z)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},7806:(e,t,r)=>{"use strict";r.d(t,{em:()=>b,u5:()=>R,QU:()=>D,_L:()=>j,Gm:()=>M,Lg:()=>L,BV:()=>Z,Kf:()=>Y});var n=r(8325),i=r(3117);const o="nr@original:".concat(i.a);var a=Object.prototype.hasOwnProperty,s=!1;function c(e,t){return e||(e=n.ee),r.inPlace=function(e,t,n,i,o){n||(n="");const a="-"===n.charAt(0);for(let s=0;s<t.length;s++){const c=t[s],u=e[c];d(u)||(e[c]=r(u,a?c+n:n,i,c,o))}},r.flag=o,r;function r(t,r,n,s,c){return d(t)?t:(r||(r=""),nrWrapper[o]=t,function(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){u([e],r)}for(var n in e)a.call(e,n)&&(t[n]=e[n])}(t,nrWrapper,e),nrWrapper);function nrWrapper(){var o,a,d,l;try{a=this,o=[...arguments],d="function"==typeof n?n(o,a):n||{}}catch(t){u([t,"",[o,a,s],d],e)}i(r+"start",[o,a,s],d,c);try{return l=t.apply(a,o)}catch(e){throw i(r+"err",[o,a,e],d,c),e}finally{i(r+"end",[o,a,l],d,c)}}}function i(r,n,i,o){if(!s||t){var a=s;s=!0;try{e.emit(r,n,i,t,o)}catch(t){u([t,r,n,i],e)}s=a}}}function u(e,t){t||(t=n.ee);try{t.emit("internal-error",e)}catch(e){}}function d(e){return!(e&&"function"==typeof e&&e.apply&&!e[o])}var l=r(2210),f=r(385);const h={},p=f._A.XMLHttpRequest,g="addEventListener",m="removeEventListener",v="nr@wrapped:".concat(n.A);function b(e){var t=function(e){return(e||n.ee).get("events")}(e);if(h[t.debugId]++)return t;h[t.debugId]=1;var r=c(t,!0);function i(e){r.inPlace(e,[g,m],"-",o)}function o(e,t){return e[1]}return"getPrototypeOf"in Object&&(f.il&&y(document,i),y(f._A,i),y(p.prototype,i)),t.on(g+"-start",(function(e,t){var n=e[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var i=(0,l.X)(n,v,(function(){var e={object:function(){if("function"!=typeof n.handleEvent)return;return n.handleEvent.apply(n,arguments)},function:n}[typeof n];return e?r(e,"fn-",null,e.name||"anonymous"):n}));this.wrapped=e[1]=i}})),t.on(m+"-start",(function(e){e[1]=this.wrapped||e[1]})),t}function y(e,t){let r=e;for(;"object"==typeof r&&!Object.prototype.hasOwnProperty.call(r,g);)r=Object.getPrototypeOf(r);for(var n=arguments.length,i=new Array(n>2?n-2:0),o=2;o<n;o++)i[o-2]=arguments[o];r&&t(r,...i)}var A="fetch-",E=A+"body-",w=["arrayBuffer","blob","json","text","formData"],x=f._A.Request,_=f._A.Response,T="prototype";const S={};function R(e){const t=function(e){return(e||n.ee).get("fetch")}(e);if(!(x&&_&&f._A.fetch))return t;if(S[t.debugId]++)return t;function r(e,r,i){var o=e[r];"function"==typeof o&&(e[r]=function(){var e,r=[...arguments],a={};t.emit(i+"before-start",[r],a),a[n.A]&&a[n.A].dt&&(e=a[n.A].dt);var s=o.apply(this,r);return t.emit(i+"start",[r,e],s),s.then((function(e){return t.emit(i+"end",[null,e],s),e}),(function(e){throw t.emit(i+"end",[e],s),e}))})}return S[t.debugId]=1,w.forEach((e=>{r(x[T],e,E),r(_[T],e,E)})),r(f._A,"fetch",A),t.on(A+"end",(function(e,r){var n=this;if(r){var i=r.headers.get("content-length");null!==i&&(n.rxSize=i),t.emit(A+"done",[null,r],n)}else t.emit(A+"done",[e],n)})),t}const N={},O=["pushState","replaceState"];function D(e){const t=function(e){return(e||n.ee).get("history")}(e);return!f.il||N[t.debugId]++||(N[t.debugId]=1,c(t).inPlace(window.history,O,"-")),t}var P=r(3239);const I={},C=["appendChild","insertBefore","replaceChild"];function j(e){const t=function(e){return(e||n.ee).get("jsonp")}(e);if(!f.il||I[t.debugId])return t;I[t.debugId]=!0;var r=c(t),i=/[?&](?:callback|cb)=([^&#]+)/,o=/(.*)\.([^.]+)/,a=/^(\w+)(\.|$)(.*)$/;function s(e,t){if(!e)return t;const r=e.match(a),n=r[1];return s(r[3],t[n])}return r.inPlace(Node.prototype,C,"dom-"),t.on("dom-start",(function(e){!function(e){if(!e||"string"!=typeof e.nodeName||"script"!==e.nodeName.toLowerCase())return;if("function"!=typeof e.addEventListener)return;var n=(a=e.src,c=a.match(i),c?c[1]:null);var a,c;if(!n)return;var u=function(e){var t=e.match(o);if(t&&t.length>=3)return{key:t[2],parent:s(t[1],window)};return{key:e,parent:window}}(n);if("function"!=typeof u.parent[u.key])return;var d={};function l(){t.emit("jsonp-end",[],d),e.removeEventListener("load",l,(0,P.m$)(!1)),e.removeEventListener("error",f,(0,P.m$)(!1))}function f(){t.emit("jsonp-error",[],d),t.emit("jsonp-end",[],d),e.removeEventListener("load",l,(0,P.m$)(!1)),e.removeEventListener("error",f,(0,P.m$)(!1))}r.inPlace(u.parent,[u.key],"cb-",d),e.addEventListener("load",l,(0,P.m$)(!1)),e.addEventListener("error",f,(0,P.m$)(!1)),t.emit("new-jsonp",[e.src],d)}(e[0])})),t}const k={};function M(e){const t=function(e){return(e||n.ee).get("mutation")}(e);if(!f.il||k[t.debugId])return t;k[t.debugId]=!0;var r=c(t),i=f._A.MutationObserver;return i&&(window.MutationObserver=function(e){return this instanceof i?new i(r(e,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype),t}const H={};function L(e){const t=function(e){return(e||n.ee).get("promise")}(e);if(H[t.debugId])return t;H[t.debugId]=!0;var r=t.context,i=c(t),a=f._A.Promise;return a&&function(){function e(r){var n=t.context(),o=i(r,"executor-",n,null,!1);const s=Reflect.construct(a,[o],e);return t.context(s).getCtx=function(){return n},s}f._A.Promise=e,Object.defineProperty(e,"name",{value:"Promise"}),e.toString=function(){return a.toString()},Object.setPrototypeOf(e,a),["all","race"].forEach((function(r){const n=a[r];e[r]=function(e){let i=!1;[...e||[]].forEach((e=>{this.resolve(e).then(a("all"===r),a(!1))}));const o=n.apply(this,arguments);return o;function a(e){return function(){t.emit("propagate",[null,!i],o,!1,!1),i=i||!e}}}})),["resolve","reject"].forEach((function(r){const n=a[r];e[r]=function(e){const r=n.apply(this,arguments);return e!==r&&t.emit("propagate",[e,!0],r,!1,!1),r}})),e.prototype=a.prototype;const n=a.prototype.then;a.prototype.then=function(){var e=this,o=r(e);o.promise=e;for(var a=arguments.length,s=new Array(a),c=0;c<a;c++)s[c]=arguments[c];s[0]=i(s[0],"cb-",o,null,!1),s[1]=i(s[1],"cb-",o,null,!1);const u=n.apply(this,s);return o.nextPromise=u,t.emit("propagate",[e,!0],u,!1,!1),u},a.prototype.then[o]=n,t.on("executor-start",(function(e){e[0]=i(e[0],"resolve-",this,null,!1),e[1]=i(e[1],"resolve-",this,null,!1)})),t.on("executor-err",(function(e,t,r){e[1](r)})),t.on("cb-end",(function(e,r,n){t.emit("propagate",[n,!0],this.nextPromise,!1,!1)})),t.on("propagate",(function(e,r,n){this.getCtx&&!r||(this.getCtx=function(){if(e instanceof Promise)var r=t.context(e);return r&&r.getCtx?r.getCtx():this})}))}(),t}const U={},z="setTimeout",F="setInterval",B="clearTimeout",q="-start",G="-",V=[z,"setImmediate",F,B,"clearImmediate"];function Z(e){const t=function(e){return(e||n.ee).get("timer")}(e);if(U[t.debugId]++)return t;U[t.debugId]=1;var r=c(t);return r.inPlace(f._A,V.slice(0,2),z+G),r.inPlace(f._A,V.slice(2,3),F+G),r.inPlace(f._A,V.slice(3),B+G),t.on(F+q,(function(e,t,n){e[0]=r(e[0],"fn-",null,n)})),t.on(z+q,(function(e,t,n){this.method=n,this.timerDuration=isNaN(e[1])?0:+e[1],e[0]=r(e[0],"fn-",this,n)})),t}var K=r(50);const W={},X=["open","send"];function Y(e){var t=e||n.ee;const r=function(e){return(e||n.ee).get("xhr")}(t);if(W[r.debugId]++)return r;W[r.debugId]=1,b(t);var i=c(r),o=f._A.XMLHttpRequest,a=f._A.MutationObserver,s=f._A.Promise,u=f._A.setInterval,d="readystatechange",l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],h=[],p=f._A.XMLHttpRequest=function(e){const t=new o(e),n=r.context(t);try{r.emit("new-xhr",[t],n),t.addEventListener(d,(a=n,function(){var e=this;e.readyState>3&&!a.resolved&&(a.resolved=!0,r.emit("xhr-resolved",[],e)),i.inPlace(e,l,"fn-",E)}),(0,P.m$)(!1))}catch(e){(0,K.Z)("An error occurred while intercepting XHR",e);try{r.emit("internal-error",[e])}catch(e){}}var a;return t};function g(e,t){i.inPlace(t,["onreadystatechange"],"fn-",E)}if(function(e,t){for(var r in e)t[r]=e[r]}(o,p),p.prototype=o.prototype,i.inPlace(p.prototype,X,"-xhr-",E),r.on("send-xhr-start",(function(e,t){g(e,t),function(e){h.push(e),a&&(m?m.then(A):u?u(A):(v=-v,y.data=v))}(t)})),r.on("open-xhr-start",g),a){var m=s&&s.resolve();if(!u&&!s){var v=1,y=document.createTextNode(v);new a(A).observe(y,{characterData:!0})}}else t.on("fn-end",(function(e){e[0]&&e[0].type===d||A()}));function A(){for(var e=0;e<h.length;e++)g(0,h[e]);h.length&&(h=[])}function E(e,t){return t}return r}},7825:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.ajax},6660:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.jserrors},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},4649:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageAction},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},7144:(e,t,r)=>{"use strict";r.d(t,{Ef:()=>o,J0:()=>f,Mi:()=>l,Vb:()=>a,Ye:()=>c,fm:()=>u,i9:()=>s,t9:()=>i,u0:()=>d});var n=r(7056);const i=r(3325).D.sessionReplay,o={RECORD:"recordReplay",PAUSE:"pauseReplay",REPLAY_RUNNING:"replayRunning"},a=.12,s={DomContentLoaded:0,Load:1,FullSnapshot:2,IncrementalSnapshot:3,Meta:4,Custom:5},c=1e6,u=64e3,d={[n.IK.ERROR]:15e3,[n.IK.FULL]:3e5,[n.IK.OFF]:0},l={RESET:{message:"Session was reset",sm:"Reset"},IMPORT:{message:"Recorder failed to import",sm:"Import"},TOO_MANY:{message:"429: Too Many Requests",sm:"Too-Many"},TOO_BIG:{message:"Payload was too large",sm:"Too-Big"},CROSS_TAB:{message:"Session Entity was set to OFF on another tab",sm:"Cross-Tab"},ENTITLEMENTS:{message:"Session Replay is not allowed and will not be started",sm:"Entitlement"}},f=5e3},3112:(e,t,r)=>{"use strict";r.d(t,{HM:()=>c,ev:()=>o,rU:()=>s,wi:()=>u});var n=r(234),i=r(385);const o=e=>i.il&&!0===(0,n.Mt)(e,"privacy.cookies_enabled");function a(e){return n.Yu.MO&&o&&!0===(0,n.Mt)(e,"session_trace.enabled")}function s(e){return!0===(0,n.Mt)(e,"session_replay.preload")&&a(e)}function c(e,t){return!!a(e)&&(!!t?.isNew||!!t?.state.sessionReplayMode)}function u(e,t){const r=t.correctAbsoluteTimestamp(e);return{originalTimestamp:e,correctedTimestamp:r,timestampDiff:e-r,timeKeeperOriginTime:t.originTime,timeKeeperCorrectedOriginTime:t.correctedOriginTime,timeKeeperDiff:Math.floor(t.originTime-t.correctedOriginTime)}}},3614:(e,t,r)=>{"use strict";r.d(t,{BST_RESOURCE:()=>i,END:()=>s,FEATURE_NAME:()=>n,FN_END:()=>u,FN_START:()=>c,PUSH_STATE:()=>d,RESOURCE:()=>o,START:()=>a});const n=r(3325).D.sessionTrace,i="bstResource",o="resource",a="-start",s="-end",c="fn"+a,u="fn"+s,d="pushState"},6216:(e,t,r)=>{"use strict";r.d(t,{K8:()=>s,QZ:()=>c,cS:()=>o,sE:()=>i,t9:()=>a,vh:()=>u});var n=r(3325);const i=["click","keydown","submit"],o="api",a=n.D.softNav,s={INITIAL_PAGE_LOAD:"",ROUTE_CHANGE:1,UNSPECIFIED:2},c={INTERACTION:1,AJAX:2,CUSTOM_END:3,CUSTOM_TRACER:4},u={IP:"in progress",FIN:"finished",CAN:"cancelled"}},7836:(e,t,r)=>{"use strict";r.d(t,{BODY:()=>w,CB_END:()=>x,CB_START:()=>u,END:()=>E,FEATURE_NAME:()=>i,FETCH:()=>T,FETCH_BODY:()=>v,FETCH_DONE:()=>m,FETCH_START:()=>g,FN_END:()=>c,FN_START:()=>s,INTERACTION:()=>f,INTERACTION_API:()=>d,INTERACTION_EVENTS:()=>o,JSONP_END:()=>b,JSONP_NODE:()=>p,JS_TIME:()=>_,MAX_TIMER_BUDGET:()=>a,REMAINING:()=>l,SPA_NODE:()=>h,START:()=>A,originalSetTimeout:()=>y});var n=r(234);const i=r(3325).D.spa,o=["click","submit","keypress","keydown","keyup","change"],a=999,s="fn-start",c="fn-end",u="cb-start",d="api-ixn-",l="remaining",f="interaction",h="spaNode",p="jsonpNode",g="fetch-start",m="fetch-done",v="fetch-body-",b="jsonp-end",y=n.Yu.ST,A="-start",E="-end",w="-body",x="cb"+E,_="jsTime",T="fetch"},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},2758:(e,t,r)=>{"use strict";r.d(t,{j:()=>x});var n=r(3325),i=r(234),o=r(5546),a=r(8325),s=r(8e3),c=r(3960),u=r(385),d=r(50),l=r(3081),f=r(8632),h=r(7144);const p=["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay",h.Ef.RECORD,h.Ef.PAUSE],g=["setErrorHandler","finished","addToTrace","addRelease"];var m=r(7894),v=r(7056);function b(){const e=(0,f.gG)();p.forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}const y={};var A=r(2825);const E=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let w=!1;function x(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},p=arguments.length>2?arguments[2]:void 0,x=arguments.length>3?arguments[3]:void 0,{init:_,info:T,loader_config:S,runtime:R={loaderType:p},exposed:N=!0}=t;const O=(0,f.gG)();T||(_=O.init,T=O.info,S=O.loader_config),(0,i.Dg)(e.agentIdentifier,_||{}),(0,i.GE)(e.agentIdentifier,S||{}),T.jsAttributes??={},u.v6&&(T.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,T);const D=(0,i.P_)(e.agentIdentifier),P=[T.beacon,T.errorBeacon];w||(D.proxy.assets&&(E(D.proxy.assets),P.push(D.proxy.assets)),D.proxy.beacon&&P.push(D.proxy.beacon),b(),(0,f.EZ)("activatedFeatures",A.T),e.runSoftNavOverSpa&&=!0===D.soft_navigations.enabled&&D.feature_flags.includes("soft_nav")),R.denyList=[...D.ajax.deny_list||[],...D.ajax.block_internal?P:[]],(0,i.sU)(e.agentIdentifier,R),void 0===e.api&&(e.api=function(e,t){let f=arguments.length>2&&void 0!==arguments[2]&&arguments[2];t||(0,s.RP)(e,"api");const p={};var b=a.ee.get(e),A=b.get("tracer");y[e]=v.IK.OFF,b.on(h.Ef.REPLAY_RUNNING,(t=>{y[e]=t}));var E="api-",w=E+"ixn-";function x(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),S(E,n,!0,o||null===r?"session":void 0)(t,r)}function _(){}g.forEach((e=>{p[e]=S(E,e,!0,"api")})),p.addPageAction=S(E,"addPageAction",!0,n.D.pageAction),p.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,S(E,"setPageViewName",!0)()},p.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return x(e,t,"setCustomAttribute",r);(0,d.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,d.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setUserId=function(e){if("string"==typeof e||null===e)return x("enduser.id",e,"setUserId",!0);(0,d.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setApplicationVersion=function(e){if("string"==typeof e||null===e)return x("application.version",e,"setApplicationVersion",!1);(0,d.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},p.start=e=>{try{const t=e?"defined":"undefined";(0,o.p)(l.xS,["API/start/".concat(t,"/called")],void 0,n.D.metrics,b);const r=Object.values(n.D);if(void 0===e)e=r;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!r.includes(e))))return(0,d.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r));e.includes(n.D.pageViewEvent)||e.push(n.D.pageViewEvent)}e.forEach((e=>{b.emit("".concat(e,"-opt-in"))}))}catch(e){(0,d.Z)("An unexpected issue occurred",e)}},p[h.Ef.RECORD]=function(){(0,o.p)(l.xS,["API/recordReplay/called"],void 0,n.D.metrics,b),(0,o.p)(h.Ef.RECORD,[],void 0,n.D.sessionReplay,b)},p[h.Ef.PAUSE]=function(){(0,o.p)(l.xS,["API/pauseReplay/called"],void 0,n.D.metrics,b),(0,o.p)(h.Ef.PAUSE,[],void 0,n.D.sessionReplay,b)},p.interaction=function(e){return(new _).get("object"==typeof e?e:{})};const T=_.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(l.xS,["API/createTracer/called"],void 0,n.D.metrics,b),f||(0,o.p)(w+"tracer",[(0,m.z)(),e,r],i,n.D.spa,b),function(){if(A.emit((a?"":"no-")+"fn-start",[(0,m.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){throw A.emit("fn-err",[arguments,this,e],r),e}finally{A.emit("fn-end",[(0,m.z)()],r)}}}};function S(e,t,r,i){return function(){return(0,o.p)(l.xS,["API/"+t+"/called"],void 0,n.D.metrics,b),i&&(0,o.p)(e+t,[(0,m.z)(),...arguments],r?null:this,i,b),r?void 0:this}}function R(){r.e(111).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,s.LP)(e,"api")})).catch((()=>{(0,d.Z)("Downloading runtime APIs failed..."),b.abort()}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{T[e]=S(w,e,void 0,f?n.D.softNav:n.D.spa)})),p.setCurrentRouteName=f?S(w,"routeName",void 0,n.D.softNav):S(E,"routeName",!0,n.D.spa),p.noticeError=function(t,r){"string"==typeof t&&(t=new Error(t)),(0,o.p)(l.xS,["API/noticeError/called"],void 0,n.D.metrics,b),(0,o.p)("err",[t,(0,m.z)(),!1,r,!!y[e]],void 0,n.D.jserrors,b)},u.il?(0,c.b2)((()=>R()),!0):R(),p}(e.agentIdentifier,x,e.runSoftNavOverSpa)),void 0===e.exposed&&(e.exposed=N),w=!0}},8993:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.softNav]:9,[n.sessionReplay]:10}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>({111:"nr-spa",164:"nr-spa-compressor",433:"nr-spa-recorder"}[e]+"-1.256.1.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.256.1.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={111:"sha512-FMRNIt9Dv4sjFK4pgeuLxu+HnEvR2p9gHjB2M07/n1zlJ9TOxylD1YSn25FxKcvKyzyGnrivWpCUqZ7qs9sFbw==",433:"sha512-H3OTfIs5Lpo74SzX6dg5qAzVJ+lPacelfoS9nVVr1KnMZ4BCxCFjMo8ppGwmK4cr25OGDCcmXznc3yhrT4zULQ==",164:"sha512-IoCkdjfnZsfZmrR36AWUJUMKeopABqsr/ieId2HiKsqnHikwbHUmW8Ae8LxledbNbjIbXELSFeL2P8sPiH0Ctg=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var h=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(h.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=h.bind(null,s.onerror),s.onload=h.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={801:0,92:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.256.1.PROD"]=self["webpackChunk:NRBA-1.256.1.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(8993);var e=i(50),t=i(7144),r=i(4402);class n{agentIdentifier;constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:(0,r.ky)(16);this.agentIdentifier=e}#e(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];if("function"==typeof this.api?.[t])return this.api[t](...n);(0,e.Z)("Call to agent api ".concat(t," failed. The API is not currently initialized."))}addPageAction(e,t){return this.#e("addPageAction",e,t)}setPageViewName(e,t){return this.#e("setPageViewName",e,t)}setCustomAttribute(e,t,r){return this.#e("setCustomAttribute",e,t,r)}noticeError(e,t){return this.#e("noticeError",e,t)}setUserId(e){return this.#e("setUserId",e)}setApplicationVersion(e){return this.#e("setApplicationVersion",e)}setErrorHandler(e){return this.#e("setErrorHandler",e)}finished(e){return this.#e("finished",e)}addRelease(e,t){return this.#e("addRelease",e,t)}start(e){return this.#e("start",e)}recordReplay(){return this.#e(t.Ef.RECORD)}pauseReplay(){return this.#e(t.Ef.PAUSE)}addToTrace(e){return this.#e("addToTrace",e)}setCurrentRouteName(e){return this.#e("setCurrentRouteName",e)}interaction(){return this.#e("interaction")}}var o=i(3325),a=i(234);const s=Object.values(o.D);function c(e){const t={};return s.forEach((r=>{t[r]=function(e,t){return!0===(0,a.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var u=i(2758);var d=i(8e3),l=i(5938),f=i(3960),h=i(385),p=i(3112);class g extends l.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=n,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,a.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,d.RP)(e,r)}importAggregator(){let t,r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,d.RP)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));this.onAggregateImported=new Promise((e=>{t=e}));const n=async()=>{let n;try{if((0,p.ev)(this.agentIdentifier)){const{setupAgentSession:e}=await i.e(111).then(i.bind(i,1656));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t),this.featureName===o.D.sessionReplay&&this.abortHandler?.()}try{if(!this.#t(this.featureName,n))return(0,d.LP)(this.agentIdentifier,this.featureName),void t(!1);const{lazyFeatureLoader:e}=await i.e(111).then(i.bind(i,8582)),{Aggregate:o}=await e(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,r),t(!0)}catch(r){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),r),this.abortHandler?.(),(0,d.LP)(this.agentIdentifier,this.featureName,!0),t(!1),this.ee&&this.ee.abort()}};h.il?(0,f.b2)((()=>n()),!0):n()}#t(e,t){return e!==o.D.sessionReplay||(0,p.HM)(this.agentIdentifier,t)}}var m=i(7633);class v extends g{static featureName=m.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,m.t,r),this.importAggregator()}}var b=i(1117),y=i(1284);class A extends b.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,y.D)(e,(function(e,r){t[e]=E(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,y.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=E(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=w(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=E(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=Object.values(this.aggregatedData[r]||{}),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function E(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=w(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function w(e){return{t:e,min:e,max:e,sos:e*e,c:1}}var x=i(8632),_=i(4351);var T=i(5546),S=i(7956),R=i(3239),N=i(9251),O=i(7894);class D extends g{static featureName=N.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,N.t,r),h.il&&((0,S.N)((()=>(0,T.p)("docHidden",[(0,O.z)()],void 0,N.t,this.ee)),!0),(0,R.bP)("pagehide",(()=>(0,T.p)("winPagehide",[(0,O.z)()],void 0,N.t,this.ee))),this.importAggregator())}}var P=i(3081);class I extends g{static featureName=P.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t9,r),this.importAggregator()}}var C=i(6660);class j{constructor(e,t,r,n){this.name="UncaughtError",this.message=e,this.sourceURL=t,this.line=r,this.column=n}}class k extends g{static featureName=C.t;#r=new Set;#n=!1;constructor(e,r){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,r,C.t,n);try{this.removeOnAbort=new AbortController}catch(e){}this.ee.on("fn-err",((e,t,r)=>{this.abortHandler&&!this.#r.has(r)&&(this.#r.add(r),(0,T.p)("err",[this.#i(r),(0,O.z)()],void 0,o.D.jserrors,this.ee))})),this.ee.on("internal-error",(e=>{this.abortHandler&&(0,T.p)("ierr",[this.#i(e),(0,O.z)(),!0,{},this.#n],void 0,o.D.jserrors,this.ee)})),this.ee.on(t.Ef.REPLAY_RUNNING,(e=>{this.#n=e})),h._A.addEventListener("unhandledrejection",(e=>{this.abortHandler&&(0,T.p)("err",[this.#o(e),(0,O.z)(),!1,{unhandledPromiseRejection:1},this.#n],void 0,o.D.jserrors,this.ee)}),(0,R.m$)(!1,this.removeOnAbort?.signal)),h._A.addEventListener("error",(e=>{this.abortHandler&&(this.#r.has(e.error)?this.#r.delete(e.error):(0,T.p)("err",[this.#a(e),(0,O.z)(),!1,{},this.#n],void 0,o.D.jserrors,this.ee))}),(0,R.m$)(!1,this.removeOnAbort?.signal)),this.abortHandler=this.#s,this.importAggregator()}#s(){this.removeOnAbort?.abort(),this.#r.clear(),this.abortHandler=void 0}#i(e){return e instanceof Error?e:void 0!==e?.message?new j(e.message,e.filename||e.sourceURL,e.lineno||e.line,e.colno||e.col):new j("string"==typeof e?e:(0,_.P)(e))}#o(e){let t="Unhandled Promise Rejection: ";if(e?.reason instanceof Error)try{return e.reason.message=t+e.reason.message,e.reason}catch(t){return e.reason}if(void 0===e.reason)return new j(t);const r=this.#i(e.reason);return r.message=t+r.message,r}#a(e){if(e.error instanceof SyntaxError&&!/:\d+$/.test(e.error.stack?.trim())){const t=new j(e.message,e.filename,e.lineno,e.colno);return t.name=SyntaxError.name,t}return e.error instanceof Error?e.error:new j(e.message,e.filename,e.lineno,e.colno)}}var M=i(2210);let H=1;const L="nr@id";function U(e){const t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===h._A?0:(0,M.X)(e,L,(function(){return H++}))}function z(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return(0,_.P)(e).length}catch(e){return}}}var F=i(7806),B=i(7243);class q{constructor(e){this.agentIdentifier=e}generateTracePayload(e){if(!this.shouldGenerateTrace(e))return null;var t=(0,a.DL)(this.agentIdentifier);if(!t)return null;var n=(t.accountID||"").toString()||null,i=(t.agentID||"").toString()||null,o=(t.trustKey||"").toString()||null;if(!n||!i)return null;var s=(0,r.M)(),c=(0,r.Ht)(),u=Date.now(),d={spanId:s,traceId:c,timestamp:u};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(d.traceContextParentHeader=this.generateTraceContextParentHeader(s,c),d.traceContextStateHeader=this.generateTraceContextStateHeader(s,u,n,i,o)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(d.newrelicHeader=this.generateTraceHeader(s,c,u,n,i,o)),d}generateTraceContextParentHeader(e,t){return"00-"+t+"-"+e+"-01"}generateTraceContextStateHeader(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t}generateTraceHeader(e,t,r,n,i,o){if(!("function"==typeof h._A?.btoa))return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return o&&n!==o&&(a.d.tk=o),btoa((0,_.P)(a))}shouldGenerateTrace(e){return this.isDtEnabled()&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var t=!1,r={};if((0,a.Mt)(this.agentIdentifier,"distributed_tracing")&&(r=(0,a.P_)(this.agentIdentifier).distributed_tracing),e.sameOrigin)t=!0;else if(r.allowed_origins instanceof Array)for(var n=0;n<r.allowed_origins.length;n++){var i=(0,B.e)(r.allowed_origins[n]);if(e.hostname===i.hostname&&e.protocol===i.protocol&&e.port===i.port){t=!0;break}}return t}isDtEnabled(){var e=(0,a.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.enabled}excludeNewrelicHeader(){var e=(0,a.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.exclude_newrelic_header}useNewrelicHeaderForCors(){var e=(0,a.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!1!==e.cors_use_newrelic_header}useTraceContextHeadersForCors(){var e=(0,a.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.cors_use_tracecontext_headers}}var G=i(7825),V=["load","error","abort","timeout"],Z=V.length,K=a.Yu.REQ,W=a.Yu.XHR;class X extends g{static featureName=G.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(e,t,G.t,r),(0,a.OP)(e).xhrWrappable){this.dt=new q(e),this.handler=(e,t,r,n)=>(0,T.p)(e,t,r,n,this.ee);try{const e={xmlhttprequest:"xhr",fetch:"fetch",beacon:"beacon"};h._A?.performance?.getEntriesByType("resource").forEach((t=>{if(t.initiatorType in e&&0!==t.responseStatus){const r={status:t.responseStatus},n={rxSize:t.transferSize,duration:Math.floor(t.duration),cbTime:0};Y(r,t.name),this.handler("xhr",[r,n,t.startTime,t.responseEnd,e[t.initiatorType]],void 0,o.D.ajax)}}))}catch(e){}(0,F.u5)(this.ee),(0,F.Kf)(this.ee),function(e,t,r,n){function i(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=w,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},e.addEventListener("load",(function(r){x(t,e)}),(0,R.m$)(!1)),h.IF||e.addEventListener("progress",(function(e){t.lastSize=e.loaded}),(0,R.m$)(!1))}function s(e){this.params={method:e[0]},Y(this,e[1]),this.metrics={}}function c(t,r){var i=(0,a.DL)(e);i.xpid&&this.sameOrigin&&r.setRequestHeader("X-NewRelic-ID",i.xpid);var o=n.generateTracePayload(this.parsedOrigin);if(o){var s=!1;o.newrelicHeader&&(r.setRequestHeader("newrelic",o.newrelicHeader),s=!0),o.traceContextParentHeader&&(r.setRequestHeader("traceparent",o.traceContextParentHeader),o.traceContextStateHeader&&r.setRequestHeader("tracestate",o.traceContextStateHeader),s=!0),s&&(this.dt=o)}}function u(e,r){var n=this.metrics,i=e[0],o=this;if(n&&i){var a=z(i);a&&(n.txSize=a)}this.startTime=(0,O.z)(),this.body=i,this.listener=function(e){try{"abort"!==e.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==e.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof r.onload)&&"function"==typeof o.end)&&o.end(r)}catch(e){try{t.emit("internal-error",[e])}catch(e){}}};for(var s=0;s<Z;s++)r.addEventListener(V[s],this.listener,(0,R.m$)(!1))}function d(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||"function"!=typeof this.end||this.end(r)}function l(e,t){var r=""+U(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function f(e,t){var r=""+U(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function p(){this.endTime=(0,O.z)()}function g(e,r){r instanceof W&&"load"===e[0]&&t.emit("xhr-load-added",[e[1],e[2]],r)}function m(e,r){r instanceof W&&"load"===e[0]&&t.emit("xhr-load-removed",[e[1],e[2]],r)}function v(e,t,r){t instanceof W&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,O.z)()))}function b(e,r){this.xhrCbStart&&t.emit("xhr-cb-time",[(0,O.z)()-this.xhrCbStart,this.onload,r],r)}function y(e){var t,r=e[1]||{};if("string"==typeof e[0]?0===(t=e[0]).length&&h.il&&(t=""+h._A.location.href):e[0]&&e[0].url?t=e[0].url:h._A?.URL&&e[0]&&e[0]instanceof URL?t=e[0].href:"function"==typeof e[0].toString&&(t=e[0].toString()),"string"==typeof t&&0!==t.length){t&&(this.parsedOrigin=(0,B.e)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=n.generateTracePayload(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if(e[0]&&e[0].headers)s(e[0].headers,i)&&(this.dt=i);else{var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),s(o.headers,i)&&(this.dt=i),e.length>1?e[1]=o:e.push(o)}}function s(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function A(e,t){this.params={},this.metrics={},this.startTime=(0,O.z)(),this.dt=t,e.length>=1&&(this.target=e[0]),e.length>=2&&(this.opts=e[1]);var r,n=this.opts||{},i=this.target;"string"==typeof i?r=i:"object"==typeof i&&i instanceof K?r=i.url:h._A?.URL&&"object"==typeof i&&i instanceof URL&&(r=i.href),Y(this,r);var o=(""+(i&&i instanceof K&&i.method||n.method||"GET")).toUpperCase();this.params.method=o,this.body=n.body,this.txSize=z(n.body)||0}function E(e,t){var n;this.endTime=(0,O.z)(),this.params||(this.params={}),this.params.status=t?t.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var i={txSize:this.txSize,rxSize:n,duration:(0,O.z)()-this.startTime};r("xhr",[this.params,i,this.startTime,this.endTime,"fetch"],this,o.D.ajax)}function w(e){var t=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;i<Z;i++)e.removeEventListener(V[i],this.listener,!1);t.aborted||(n.duration=(0,O.z)()-this.startTime,this.loadCaptureCalled||4!==e.readyState?null==t.status&&(t.status=0):x(this,e),n.cbTime=this.cbTime,r("xhr",[t,n,this.startTime,this.endTime,"xhr"],this,o.D.ajax))}}function x(e,r){e.params.status=r.status;var n=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?z(e.response):"text"===r||""===r||void 0===r?z(e.responseText):void 0}(r,e.lastSize);if(n&&(e.metrics.rxSize=n),e.sameOrigin){var i=r.getResponseHeader("X-NewRelic-App-Data");i&&((0,T.p)(P.mY,["Ajax/CrossApplicationTracing/Header/Seen"],void 0,o.D.metrics,t),e.params.cat=i.split(", ").pop())}e.loadCaptureCalled=!0}t.on("new-xhr",i),t.on("open-xhr-start",s),t.on("open-xhr-end",c),t.on("send-xhr-start",u),t.on("xhr-cb-time",d),t.on("xhr-load-added",l),t.on("xhr-load-removed",f),t.on("xhr-resolved",p),t.on("addEventListener-end",g),t.on("removeEventListener-end",m),t.on("fn-end",b),t.on("fetch-before-start",y),t.on("fetch-start",A),t.on("fn-start",v),t.on("fetch-done",E)}(e,this.ee,this.handler,this.dt),this.importAggregator()}}}function Y(e,t){var r=(0,B.e)(t),n=e.params||e;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}var J=i(3614);const{BST_RESOURCE:Q,RESOURCE:ee,START:te,END:re,FEATURE_NAME:ne,FN_END:ie,FN_START:oe,PUSH_STATE:ae}=J;var se=i(7056);class ce extends g{static featureName=t.t9;constructor(e,r){let n,i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,r,t.t9,i);try{n=JSON.parse(localStorage.getItem("".concat(se.Bq,"_").concat(se.K4)))}catch(e){}this.#c(n)?(this.ee.on("err",(e=>{this.errorNoticed=!0,this.featAggregate&&this.featAggregate.handleError()})),this.#u(n?.sessionReplayMode)):this.importAggregator()}#c(e){return e&&(e.sessionReplayMode===se.IK.FULL||e.sessionReplayMode===se.IK.ERROR)||(0,p.rU)(this.agentIdentifier)}async#u(e){const{Recorder:t}=await Promise.all([i.e(111),i.e(433)]).then(i.bind(i,4345));this.recorder=new t({mode:e,agentIdentifier:this.agentIdentifier,ee:this.ee}),this.recorder.startRecording(),this.abortHandler=this.recorder.stopRecording,this.importAggregator({recorder:this.recorder,errorNoticed:this.errorNoticed})}}var ue=i(7872),de=i(6216);class le extends g{static featureName=de.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(e,t,de.t9,r),!h.il||!a.Yu.MO)return;const n=(0,F.QU)(this.ee),i=(0,F.em)(this.ee),o=()=>(0,T.p)("newURL",[(0,O.z)(),""+window.location],void 0,this.featureName,this.ee);n.on("pushState-end",o),n.on("replaceState-end",o);try{this.removeOnAbort=new AbortController}catch(e){}(0,R.bP)("popstate",(e=>(0,T.p)("newURL",[e.timeStamp,""+window.location],void 0,this.featureName,this.ee)),!0,this.removeOnAbort?.signal);let s=!1;const c=new a.Yu.MO(((e,t)=>{s||(s=!0,requestAnimationFrame((()=>{(0,T.p)("newDom",[(0,O.z)()],void 0,this.featureName,this.ee),s=!1})))})),u=(0,ue.D)((e=>{(0,T.p)("newUIEvent",[e],void 0,this.featureName,this.ee),c.observe(document.body,{attributes:!0,childList:!0,subtree:!0,characterData:!0})}),100,{leading:!0});i.on("fn-start",(e=>{let[t]=e;de.sE.includes(t?.type)&&u(t)}));for(let e of de.sE)document.addEventListener(e,(()=>{}));this.abortHandler=function(){this.removeOnAbort?.abort(),c.disconnect(),this.abortHandler=void 0},this.importAggregator({domObserver:c})}}var fe=i(7836);const{FEATURE_NAME:he,START:pe,END:ge,BODY:me,CB_END:ve,JS_TIME:be,FETCH:ye,FN_START:Ae,CB_START:Ee,FN_END:we}=fe;var xe=i(4649);class _e extends g{static featureName=xe.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,xe.t,r),this.importAggregator()}}new class extends n{constructor(t,r){super(r),h._A?(this.sharedAggregator=new A({agentIdentifier:this.agentIdentifier}),this.features={},(0,x.h5)(this.agentIdentifier,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(v),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===o.D.softNav)),(0,u.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initialize the agent. Could not determine the runtime environment.")}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}run(){try{const t=c(this.agentIdentifier),r=[...this.desiredFeatures];r.sort(((e,t)=>o.p[e.featureName]-o.p[t.featureName])),r.forEach((r=>{if(!t[r.featureName]&&r.featureName!==o.D.pageViewEvent)return;if(this.runSoftNavOverSpa&&r.featureName===o.D.spa)return;if(!this.runSoftNavOverSpa&&r.featureName===o.D.softNav)return;const n=function(e){switch(e){case o.D.ajax:return[o.D.jserrors];case o.D.sessionTrace:return[o.D.ajax,o.D.pageViewEvent];case o.D.sessionReplay:return[o.D.sessionTrace];case o.D.pageViewTiming:return[o.D.pageViewEvent];default:return[]}}(r.featureName);n.every((e=>e in this.features))||(0,e.Z)("".concat(r.featureName," is enabled but one or more dependent features has not been initialized (").concat((0,_.P)(n),"). This may cause unintended consequences or missing data...")),this.features[r.featureName]=new r(this.agentIdentifier,this.sharedAggregator)}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,x.fP)();delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return r.ee.get(this.agentIdentifier).abort(),!1}}}({features:[X,v,D,class extends g{static featureName=ne;constructor(e,t){if(super(e,t,ne,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),!h.il)return;const r=this.ee;let n;(0,F.QU)(r),this.eventsEE=(0,F.em)(r),this.eventsEE.on(oe,(function(e,t){this.bstStart=(0,O.z)()})),this.eventsEE.on(ie,(function(e,t){(0,T.p)("bst",[e[0],t,this.bstStart,(0,O.z)()],void 0,o.D.sessionTrace,r)})),r.on(ae+te,(function(e){this.time=(0,O.z)(),this.startPath=location.pathname+location.hash})),r.on(ae+re,(function(e){(0,T.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,o.D.sessionTrace,r)}));try{n=new PerformanceObserver((e=>{const t=e.getEntries();(0,T.p)(Q,[t],void 0,o.D.sessionTrace,r)})),n.observe({type:ee,buffered:!0})}catch(e){}this.importAggregator({resourceObserver:n})}},ce,I,_e,k,le,class extends g{static featureName=he;constructor(e,t){if(super(e,t,he,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),!h.il)return;if(!(0,a.OP)(e).xhrWrappable)return;try{this.removeOnAbort=new AbortController}catch(e){}let r,n=0;const i=this.ee.get("tracer"),o=(0,F._L)(this.ee),s=(0,F.Lg)(this.ee),c=(0,F.BV)(this.ee),u=(0,F.Kf)(this.ee),d=this.ee.get("events"),l=(0,F.u5)(this.ee),f=(0,F.QU)(this.ee),p=(0,F.Gm)(this.ee);function g(e,t){f.emit("newURL",[""+window.location,t])}function m(){n++,r=window.location.hash,this[Ae]=(0,O.z)()}function v(){n--,window.location.hash!==r&&g(0,!0);var e=(0,O.z)();this[be]=~~this[be]+e-this[Ae],this[we]=e}function b(e,t){e.on(t,(function(){this[t]=(0,O.z)()}))}this.ee.on(Ae,m),s.on(Ee,m),o.on(Ee,m),this.ee.on(we,v),s.on(ve,v),o.on(ve,v),this.ee.buffer([Ae,we,"xhr-resolved"],this.featureName),d.buffer([Ae],this.featureName),c.buffer(["setTimeout"+ge,"clearTimeout"+pe,Ae],this.featureName),u.buffer([Ae,"new-xhr","send-xhr"+pe],this.featureName),l.buffer([ye+pe,ye+"-done",ye+me+pe,ye+me+ge],this.featureName),f.buffer(["newURL"],this.featureName),p.buffer([Ae],this.featureName),s.buffer(["propagate",Ee,ve,"executor-err","resolve"+pe],this.featureName),i.buffer([Ae,"no-"+Ae],this.featureName),o.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"],this.featureName),b(l,ye+pe),b(l,ye+"-done"),b(o,"new-jsonp"),b(o,"jsonp-end"),b(o,"cb-start"),f.on("pushState-end",g),f.on("replaceState-end",g),window.addEventListener("hashchange",g,(0,R.m$)(!0,this.removeOnAbort?.signal)),window.addEventListener("load",g,(0,R.m$)(!0,this.removeOnAbort?.signal)),window.addEventListener("popstate",(function(){g(0,n>1)}),(0,R.m$)(!0,this.removeOnAbort?.signal)),this.abortHandler=this.#s,this.importAggregator()}#s(){this.removeOnAbort?.abort(),this.abortHandler=void 0}}],loaderType:"spa"})})()})();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="env" content="production">
+    <meta property="fb:app_id" content="457597585444624">
+    <meta name="msapplication-TileColor" content="#1d0a30">
+    <meta name="msapplication-config" content="https://theanalyst.com/wp-content/themes/the-analyst-theme/icons/browserconfig.xml?v=1.0.1">
+    <meta name="theme-color" content="#1d0a30">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://theanalyst.com/wp-content/themes/the-analyst-theme/icons/apple-touch-icon.png?v=v1.0.1">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://theanalyst.com/wp-content/themes/the-analyst-theme/icons/favicon-32x32.png?v=v1.0.1">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://theanalyst.com/wp-content/themes/the-analyst-theme/icons/favicon-16x16.png?v=v1.0.1">
+    <link rel="manifest" href="https://theanalyst.com/wp-content/themes/the-analyst-theme/icons/site.webmanifest?v=v1.0.1" crossorigin="use-credentials">
+    <link rel="mask-icon" href="https://theanalyst.com/wp-content/themes/the-analyst-theme/icons/safari-pinned-tab.svg?v=v1.0.1" color="#1d0a30">
+    <link rel="shortcut icon" href="https://theanalyst.com/wp-content/themes/the-analyst-theme/icons/favicon.ico?v=v1.0.1">
+    <link rel="author" href="https://theanalyst.com/humans.txt">
+    <link rel="stylesheet" href="https://theanalyst.com/wp-content/themes/the-analyst-theme/theme/style.css" type="text/css" media="screen">
+    <link rel="pingback" href="https://theanalyst.com/wp/xmlrpc.php">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+    
+        <!-- OneTrust Cookies Consent Notice start for theanalyst.com -->
+    <script src="https://optanon.blob.core.windows.net/consent/f0c2dbc7-adf7-4831-b95d-264f7c6efb7d.js" type="text/javascript" charset="UTF-8"></script>
+    <script type="text/javascript">
+      function OptanonWrapper() { }
+    </script>
+    <!-- OneTrust Cookies Consent Notice end for theanalyst.com -->
+    <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                                                          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-TZBBPFZ');</script>
+        <!-- End Google Tag Manager -->
+        <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2250372671902680');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=2250372671902680&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- Twitter conversion tracking base code -->
+    <script>
+        !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+        },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
+            a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+        twq('config','o9lqi');
+    </script>
+    <!-- End Twitter conversion tracking base code -->
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<title>How the &#039;Idiots Who Believe&#039; in the Analytics Movement Have Forever Changed Basketball | The Analyst</title>
+	<meta name="description" content="Thanks in part to data&#039;s influence and advanced analytics, basketball is now a game that wouldn&#039;t have been recognizable 50 years ago." />
+	<link rel="canonical" href="https://theanalyst.com/2021/04/how-advanced-analytics-have-changed-basketball/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="How the &#039;Idiots Who Believe&#039; in the Analytics Movement Have Forever Changed Basketball | The Analyst" />
+	<meta property="og:description" content="Thanks in part to data&#039;s influence and advanced analytics, basketball is now a game that wouldn&#039;t have been recognizable 50 years ago." />
+	<meta property="og:url" content="https://theanalyst.com/2021/04/how-advanced-analytics-have-changed-basketball/" />
+	<meta property="og:site_name" content="The Analyst" />
+	<meta property="article:published_time" content="2021-04-15T14:31:32+00:00" />
+	<meta property="article:modified_time" content="2023-02-03T19:44:23+00:00" />
+	<meta property="og:image" content="https://theanalyst.com/wp-content/uploads/2021/03/state-of-analytics-basketball-banner.jpg" />
+	<meta property="og:image:width" content="1360" />
+	<meta property="og:image:height" content="949" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Taylor Bechtold" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@tmbech23" />
+	<meta name="twitter:site" content="@optaanalyst" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Taylor Bechtold" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="18 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://theanalyst.com/2021/04/how-advanced-analytics-have-changed-basketball/#article","isPartOf":{"@id":"https://theanalyst.com/2021/04/how-advanced-analytics-have-changed-basketball/"},"author":{"@id":"https://theanalyst.com/#/schema/person/fc07c9991e0c58ee5379cb3742296d0a"},"headline":"How the &#8216;Idiots Who Believe&#8217; in the Analytics Movement Have Forever Changed Basketball","datePublished":"2021-04-15T14:31:32+00:00","dateModified":"2023-02-03T19:44:23+00:00","mainEntityOfPage":{"@id":"https://theanalyst.com/2021/04/how-advanced-analytics-have-changed-basketball/"},"wordCount":3809,"publisher":{"@id":"https://theanalyst.com/#organization"},"image":{"@id":"https://theanalyst.com/2021/04/how-advanced-analytics-have-changed-basketball/#primaryimage"},"thumbnailUrl":"https://theanalyst.com/wp-content/uploads/2021/03/state-of-analytics-basketball-banner.jpg","articleSection":["NBA","NCAA"],"inLanguage":"na"},{"@type":"WebPage","@id":"https://theanalyst.com/2021/04/how-advanced-analytics-have-changed-basketball/","url":"https://theanalyst.com/2021/04/how-advanced-analytics-have-changed-basketball/","name":"How the 'Idiots Who Believe' in the Analytics Movement Have Forever Changed Basketball | The Analyst","isPartOf":{"@id":"https://theanalyst.com/#website"},"primaryImageOfPage":{"@id":"https://theanalyst.com/2021/04/how-advanced-analytics-have-changed-basketball/#primaryimage"},"image":{"@id":"https://theanalyst.com/2021/04/how-advanced-analytics-have-changed-basketball/#primaryimage"},"thumbnailUrl":"https://theanalyst.com/wp-content/uploads/2021/03/state-of-analytics-basketball-banner.jpg","datePublished":"2021-04-15T14:31:32+00:00","dateModified":"2023-02-03T19:44:23+00:00","description":"Thanks in part to data's influence and advanced analytics, basketball is now a game that wouldn't have been recognizable 50 years ago.","breadcrumb":{"@id":"https://theanalyst.com/2021/04/how-advanced-analytics-have-changed-basketball/#breadcrumb"},"inLanguage":"na","potentialAction":[{"@type":"ReadAction","target":["https://theanalyst.com/2021/04/how-advanced-analytics-have-changed-basketball/"]}]},{"@type":"ImageObject","inLanguage":"na","@id":"https://theanalyst.com/2021/04/how-advanced-analytics-have-changed-basketball/#primaryimage","url":"https://theanalyst.com/wp-content/uploads/2021/03/state-of-analytics-basketball-banner.jpg","contentUrl":"https://theanalyst.com/wp-content/uploads/2021/03/state-of-analytics-basketball-banner.jpg","width":1360,"height":949,"caption":"Basketball Analytics banner"},{"@type":"BreadcrumbList","@id":"https://theanalyst.com/2021/04/how-advanced-analytics-have-changed-basketball/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://theanalyst.com/"},{"@type":"ListItem","position":2,"name":"Latest Articles","item":"https://theanalyst.com/latest-articles/"},{"@type":"ListItem","position":3,"name":"How the &#8216;Idiots Who Believe&#8217; in the Analytics Movement Have Forever Changed Basketball"}]},{"@type":"WebSite","@id":"https://theanalyst.com/#website","url":"https://theanalyst.com/","name":"The Analyst","description":"Data-driven storytelling.","publisher":{"@id":"https://theanalyst.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://theanalyst.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"na"},{"@type":"Organization","@id":"https://theanalyst.com/#organization","name":"The Analyst","url":"https://theanalyst.com/","logo":{"@type":"ImageObject","inLanguage":"na","@id":"https://theanalyst.com/#/schema/logo/image/","url":"https://theanalyst.com/wp-content/uploads/2021/04/the-analyst-logo-primary-light-bg.png","contentUrl":"https://theanalyst.com/wp-content/uploads/2021/04/the-analyst-logo-primary-light-bg.png","width":5513,"height":997,"caption":"The Analyst"},"image":{"@id":"https://theanalyst.com/#/schema/logo/image/"},"sameAs":["https://twitter.com/optaanalyst"]},{"@type":"Person","@id":"https://theanalyst.com/#/schema/person/fc07c9991e0c58ee5379cb3742296d0a","name":"Taylor Bechtold","description":"Taylor decided he would write about baseball after his big-league dreams were squashed in college, football once his NFL aspirations ended as a senior in high school and basketball when his NBA goal died as a sophomore. He allegedly once took second at the national Wiffle Ball tournament in Cincinnati, losing to professionals with uniforms and aluminum bats in the finals. Taylor manages all U.S. content for Opta Analyst, but he’s still more into creating content than content calendars.","sameAs":["https://twitter.com/tmbech23"],"url":"https://theanalyst.com/author/taylor-bechtold/"}]}</script>
+
+
+<link rel='dns-prefetch' href='//static.addtoany.com' />
+<link rel='dns-prefetch' href='//platform.twitter.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="The Analyst &raquo; Feed" href="https://theanalyst.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Analyst &raquo; Comments Feed" href="https://theanalyst.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/theanalyst.com\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://theanalyst.com/wp/wp-includes/css/dist/block-library/style.min.css?ver=6.4.3' type='text/css' media='all' />
+<style id='stats-perform-opta-player-ratings-style-inline-css' type='text/css'>
+.wp-block-stats-perform-opta-player-ratings{--opr-font-family:var(--font-primary,"Big Shoulders Text",sans-serif);--opr-primary-color:#1d0a30;--opr-secondary-color:#fd4890;--opr-white:#fff;--opr-transition:0.3s ease-in-out;color:#fff;font-family:var(--opr-font-family);overflow:hidden}
+.Y9McmIvBB3sA53HMbwE4{border-radius:8px;overflow:hidden}
+.RkrYd8LuuRZH9y9ywo8H{background-color:hsla(0,0%,100%,.25);border-radius:50%;height:24px!important;-o-object-fit:cover;object-fit:cover;width:24px}.GWRgFnzHX7i5LCieLiak{padding:2px}.qLBjYIAZ_t7j1POaDBo0{height:56px!important;width:56px}.AdeWxV5dXrn8fIrKpmPR{background-color:var(--opr-white,#fff)}
+.x3fV7B14kDdB652abklA{align-items:center;background:var(--opr-secondary-color,#fd4890);border-radius:4px;color:var(--opr-primary-color,#1d0a30);display:flex;flex:0 0 100%;flex-direction:row;font-size:14px;font-weight:700;gap:8px;justify-content:center;letter-spacing:-.14px;line-height:16px;padding:8px}@media screen and (min-width:768px){.x3fV7B14kDdB652abklA{flex:0 0 112px;flex-direction:column;gap:4px;padding:4px 8px}}.x3fV7B14kDdB652abklA span{color:var(--opr-white,#fff);font-size:24px;font-weight:900;letter-spacing:-.24px;line-height:1}.x3fV7B14kDdB652abklA span span{font-size:24px}
+.ECJREK99JYoZuYXRlStv{flex:1 1 auto}.PqAP4S3Yt6heyTivJQvP{align-items:center;display:flex;gap:8px}.PqAP4S3Yt6heyTivJQvP:first-of-type span{font-size:16px;font-weight:400;letter-spacing:-.16px}.PqAP4S3Yt6heyTivJQvP+.PqAP4S3Yt6heyTivJQvP{margin-top:4px}.btfx_KMMWlfStQfQqSkP{font-size:24px!important;font-weight:900!important;letter-spacing:-.24px;line-height:1!important;margin:0!important}.btfx_KMMWlfStQfQqSkP a{transition:color var(--opr-transition)}.btfx_KMMWlfStQfQqSkP a:hover{color:var(--opr-secondary-color,"#fd4890")}.ATYtz1TDZzFpLPQ2KKmk{color:hsla(0,0%,100%,.75);font-weight:400}.ATYtz1TDZzFpLPQ2KKmk,.lcqsM2Yy6pG8asE5nMRh{font-size:16px;letter-spacing:-.16px}.lcqsM2Yy6pG8asE5nMRh{font-weight:700}
+.kIOP7AZzSMN_98aPlH6w{align-items:center;background:hsla(0,0%,100%,.1);border-radius:4px;display:flex;flex:1 1 calc(33.33333% - 6px);flex-direction:column;font-size:14px;font-weight:400;gap:4px;justify-content:center;letter-spacing:-.14px;line-height:16px;min-width:80px;padding:4px 8px}@media screen and (min-width:768px){.kIOP7AZzSMN_98aPlH6w{flex:1 0 105px}}.kIOP7AZzSMN_98aPlH6w span{color:var(--opr-white,#fff);font-size:16px;font-weight:900;letter-spacing:-.16px;line-height:1}
+.g3ZgYkXExzd_AcoxQNCf{color:var(--opr-secondary-color,#fd4890);flex:0 0 100%;font-size:16px;font-weight:900;letter-spacing:-.18px;line-height:1;text-align:center;text-transform:uppercase}@media screen and (min-width:992px){.g3ZgYkXExzd_AcoxQNCf{flex:0 0 56px;font-size:18px}}
+.rBZfYMC9LEPwaQcWPE7p{background-color:var(--opr-primary-color,#1d0a30);color:var(--opr-white,#fff);padding:8px 16px;transition:opacity var(--opr-transition)}.xKqFx2nneriCkaZHD0MX{align-items:center;display:flex;flex-flow:row wrap;gap:16px}.xKqFx2nneriCkaZHD0MX+.xKqFx2nneriCkaZHD0MX{margin-top:8px}
+.drmCYoXHpHHqbZPD0qO_{background-color:var(--opr-primary-color,#1d0a30);border:1px solid var(--opr-primary-color,#1d0a30);color:var(--opr-white,#fff)!important;flex:1 1 auto;font-size:18px;font-weight:800;letter-spacing:-.36px;line-height:1.3;padding:4px 24px;text-align:center;text-transform:uppercase;transition:all .3s ease-in-out}.drmCYoXHpHHqbZPD0qO_:hover{background-color:var(--opr-white,#fff);border-color:var(--opr-primary-color,#1d0a30);color:var(--opr-primary-color,#1d0a30)!important;cursor:pointer}@media(min-width:992px){.drmCYoXHpHHqbZPD0qO_{padding:8px 24px}}
+.hJvezH7X4fkYzW_QwGOi{align-items:center;background-color:var(--opr-white,#fff);color:var(--opr-primary-color,#1d0a30);-moz-column-gap:32px;column-gap:32px;display:flex;flex-flow:row wrap;justify-content:space-around;padding:8px 16px!important;row-gap:8px}@media(min-width:768px){.hJvezH7X4fkYzW_QwGOi{-moz-column-gap:20px;column-gap:20px}}.hJvezH7X4fkYzW_QwGOi span{flex:0 0 100%;font-size:14px;font-weight:700;letter-spacing:-.16px;line-height:1;text-align:center;text-transform:uppercase}@media(min-width:768px){.hJvezH7X4fkYzW_QwGOi span{flex:1 1 auto;order:1}}@media(min-width:992px){.hJvezH7X4fkYzW_QwGOi span{font-size:16px}}.hJvezH7X4fkYzW_QwGOi span+a{flex:0 1 184px;max-width:184px}@media(min-width:768px){.hJvezH7X4fkYzW_QwGOi span+a{order:0}}.hJvezH7X4fkYzW_QwGOi span+a img{max-width:100%}@media(min-width:768px){.hJvezH7X4fkYzW_QwGOi a+a{order:2}}
+
+</style>
+<style id='stats-perform-video-list-style-inline-css' type='text/css'>
+:root{--tatvl-font-family:"Big Shoulders Text",sans-serif;--tatvl-primary-color:#1d0a30;--tatvl-black:#000;--tatvl-white:#fff;--tatvl-transition:opacity 0.2s cubic-bezier(0.4,1,0.4,1)}.tatvl-modal,body.no-scroll{overflow:hidden}.tatvl-modal{align-items:center;display:none;flex-direction:column;height:100%;justify-content:center;left:0;opacity:0;overscroll-behavior:none;position:fixed;top:0;transition:var(--tatvl-transition);width:100%;z-index:10}.tatvl-modal.tatvl-modal--open{display:flex}.tatvl-modal.tatvl-modal--visible{opacity:100%}.tatvl-modal-overlay{-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);background:rgba(0,0,0,.8);height:100%;left:0;position:absolute;top:0;width:100%}.tatvl-modal-content{background-color:var(--tatvl-white);display:flex;padding:8px;position:relative}@media(min-width:768px){.tatvl-modal-content{padding:20px 80px 20px 20px}}.tatvl-modal-iframe{background-color:#f7f7f7;border-radius:7px;height:574px;opacity:0;transition:opacity .2s cubic-bezier(.4,1,.4,1);width:325px}.tatvl-modal-details{display:none}@media(min-width:768px){.tatvl-modal-details{display:block}}.tatvl-modal-details__container{max-width:330px;padding:24px}.tatvl-modal-details__header{margin-bottom:12px}.tatvl-modal-details__header a{align-items:center;display:flex;gap:12px;justify-content:flex-start;margin-bottom:12px;text-decoration:none}.tatvl-modal-details__avatar{border-radius:50%;height:40px;width:40px}.tatvl-modal-details__name{font-size:16px;font-weight:800;line-height:1.2;margin-bottom:0}.tatvl-modal-details__date{font-family:var(--tatvl-font-family);font-size:12px;font-weight:500;letter-spacing:1px;opacity:.7;text-transform:uppercase}.tatvl-modal-details__meta-container{align-items:center;display:flex;gap:18px}.tatvl-modal-details__meta{align-items:center;display:flex;gap:4px}.tatvl-modal-details__icon{height:24px;width:24px}.tatvl-modal-details__description{font-size:21px;font-weight:500;line-height:1.1}.tatvl-modal-details__description span{font-family:lora,serif;font-size:12px;line-height:1}.tatvl-modal-close-button{background:none;background:var(--tatvl-white);border:none;cursor:pointer;height:36px;padding:0;position:absolute;right:5px;top:5px;width:36px}@media(min-width:768px){.tatvl-modal-close-button{background:initial}}.tatvl-modal-button-next,.tatvl-modal-button-prev{align-items:center;background:none;border:none;border-radius:50%;cursor:pointer;display:none;flex-direction:column;height:48px;justify-content:center;padding:0;position:absolute;top:50%;transform:translateY(-50%);width:48px}@media(min-width:768px){.tatvl-modal-button-next,.tatvl-modal-button-prev{display:flex}}.tatvl-modal-button-next{left:calc(100% + 40px)}.tatvl-modal-button-prev{right:calc(100% + 40px);transform:rotate(180deg) translateY(-50%);transform-origin:top}.wp-block-stats-perform-video-list{background-color:var(--tatvl-primary-color);color:var(--tatvl-white);margin-bottom:24px;padding-bottom:24px;padding-top:24px;position:relative}.wp-block-stats-perform-video-list picture{height:100%;left:0;position:absolute;top:0;width:100%}.wp-block-stats-perform-video-list picture img{height:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center;width:100%}.tatvl-container{position:relative}.tatvl-heading{font-size:36px;font-weight:800;letter-spacing:1px;text-align:center;text-transform:uppercase}.tatvl-swiper{margin-bottom:24px;position:relative}.tatvl-swiper:not(.swiper-initialized)~.tatvl-button-next,.tatvl-swiper:not(.swiper-initialized)~.tatvl-button-prev{display:none}@media(min-width:576px){.tatvl-carousel-container{padding:0 75px}}.tatvl-carousel{display:flex;padding-top:2px}.tatvl-swiper:not(.swiper-initialized) .tatvl-carousel{overflow:auto}.tatvl-carousel .tatvl-slide{border-bottom:3px solid hsla(0,0%,100%,.2);border-radius:8px;flex:0 0 200px;height:266px;overflow:hidden;position:relative;transition:transform .25s ease-in-out,box-shadow .25s ease-in-out}.tatvl-carousel .tatvl-slide:hover{transform:translateY(-2px)}.tatvl-carousel .tatvl-slide-image{background-color:var(--tatvl-white);height:100%;-o-object-fit:cover;object-fit:cover;-webkit-user-select:none;-moz-user-select:none;user-select:none;width:100%}.tatvl-carousel .tatvl-slide-title{height:1px;left:-10000px;position:absolute;width:0}.tatvl-carousel .tatvl-slide-duration{background:var(--tatvl-white);border-radius:4px;bottom:8px;box-shadow:0 0 16px 0 rgba(0,0,0,.502);color:var(--tatvl-black);font-size:12px;font-weight:800;padding:4px 8px;position:absolute;right:8px;text-align:center}.tatvl-carousel .tatvl-slide-play-btn{background:none;border:none;cursor:pointer;left:50%;position:absolute;top:50%;transform:translate(-50%,-50%)}.tatvl-carousel .tatvl-slide-play-btn svg{-webkit-backdrop-filter:blur(1px);backdrop-filter:blur(1px);border-radius:50%;display:block;pointer-events:none}.tatvl-swiper:not(.swiper-initialized) .tatvl-carousel .tatvl-slide+.tatvl-slide{margin-left:16px}@media(min-width:576px){.tatvl-swiper:not(.swiper-initialized) .tatvl-carousel .tatvl-slide+.tatvl-slide{margin-left:24px}}.tatvl-swiper:not(.swiper-initialized) .swiper-lazy-preloader{display:none}.tatvl-button-next,.tatvl-button-prev{background:none;border:none;cursor:pointer;padding:6px 12px;position:absolute;top:50%;transform:translateY(-50%);visibility:hidden}@media(min-width:768px){.tatvl-button-next,.tatvl-button-prev{visibility:visible}}.tatvl-button-next.tatvl-button--disabled,.tatvl-button-prev.tatvl-button--disabled{opacity:.5}.tatvl-button-prev{left:0;transform:rotate(180deg) translateY(-50%);transform-origin:top}.tatvl-button-next{right:0}.tatvl-social-btns{align-items:center;display:flex;flex-direction:column}@media(min-width:576px){.tatvl-social-btns{flex-direction:row;justify-content:center}}.tatvl-social-btns a{align-items:center;background:hsla(0,0%,100%,.102);border-radius:8px;display:flex;font-size:14px;font-weight:800;padding:8px;width:138px}.tatvl-social-btns a+a{margin-top:8px}@media(min-width:576px){.tatvl-social-btns a+a{margin-left:24px;margin-top:0}}.tatvl-social-btns img{height:24px;margin-right:8px;width:24px}
+
+</style>
+<style id='stats-perform-video-list-style-2-inline-css' type='text/css'>
+@font-face{font-family:swiper-icons;font-style:normal;font-weight:400;src:url("data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA")}:root{--swiper-theme-color:#007aff}:host{display:block;margin-left:auto;margin-right:auto;position:relative;z-index:1}.swiper{display:block;list-style:none;margin-left:auto;margin-right:auto;overflow:hidden;padding:0;position:relative;z-index:1}.swiper-vertical>.swiper-wrapper{flex-direction:column}.swiper-wrapper{box-sizing:content-box;display:flex;height:100%;position:relative;transition-property:transform;transition-timing-function:var(--swiper-wrapper-transition-timing-function,initial);width:100%;z-index:1}.swiper-android .swiper-slide,.swiper-ios .swiper-slide,.swiper-wrapper{transform:translateZ(0)}.swiper-horizontal{touch-action:pan-y}.swiper-vertical{touch-action:pan-x}.swiper-slide{display:block;flex-shrink:0;height:100%;position:relative;transition-property:transform;width:100%}.swiper-slide-invisible-blank{visibility:hidden}.swiper-autoheight,.swiper-autoheight .swiper-slide{height:auto}.swiper-autoheight .swiper-wrapper{align-items:flex-start;transition-property:transform,height}.swiper-backface-hidden .swiper-slide{backface-visibility:hidden;transform:translateZ(0)}.swiper-3d.swiper-css-mode .swiper-wrapper{perspective:1200px}.swiper-3d .swiper-wrapper{transform-style:preserve-3d}.swiper-3d{perspective:1200px}.swiper-3d .swiper-cube-shadow,.swiper-3d .swiper-slide{transform-style:preserve-3d}.swiper-css-mode>.swiper-wrapper{overflow:auto;scrollbar-width:none;-ms-overflow-style:none}.swiper-css-mode>.swiper-wrapper::-webkit-scrollbar{display:none}.swiper-css-mode>.swiper-wrapper>.swiper-slide{scroll-snap-align:start start}.swiper-css-mode.swiper-horizontal>.swiper-wrapper{scroll-snap-type:x mandatory}.swiper-css-mode.swiper-vertical>.swiper-wrapper{scroll-snap-type:y mandatory}.swiper-css-mode.swiper-free-mode>.swiper-wrapper{scroll-snap-type:none}.swiper-css-mode.swiper-free-mode>.swiper-wrapper>.swiper-slide{scroll-snap-align:none}.swiper-css-mode.swiper-centered>.swiper-wrapper:before{content:"";flex-shrink:0;order:9999}.swiper-css-mode.swiper-centered>.swiper-wrapper>.swiper-slide{scroll-snap-align:center center;scroll-snap-stop:always}.swiper-css-mode.swiper-centered.swiper-horizontal>.swiper-wrapper>.swiper-slide:first-child{margin-inline-start:var(--swiper-centered-offset-before)}.swiper-css-mode.swiper-centered.swiper-horizontal>.swiper-wrapper:before{height:100%;min-height:1px;width:var(--swiper-centered-offset-after)}.swiper-css-mode.swiper-centered.swiper-vertical>.swiper-wrapper>.swiper-slide:first-child{margin-block-start:var(--swiper-centered-offset-before)}.swiper-css-mode.swiper-centered.swiper-vertical>.swiper-wrapper:before{height:var(--swiper-centered-offset-after);min-width:1px;width:100%}.swiper-3d .swiper-slide-shadow,.swiper-3d .swiper-slide-shadow-bottom,.swiper-3d .swiper-slide-shadow-left,.swiper-3d .swiper-slide-shadow-right,.swiper-3d .swiper-slide-shadow-top{height:100%;left:0;pointer-events:none;position:absolute;top:0;width:100%;z-index:10}.swiper-3d .swiper-slide-shadow{background:rgba(0,0,0,.15)}.swiper-3d .swiper-slide-shadow-left{background-image:linear-gradient(270deg,rgba(0,0,0,.5),transparent)}.swiper-3d .swiper-slide-shadow-right{background-image:linear-gradient(90deg,rgba(0,0,0,.5),transparent)}.swiper-3d .swiper-slide-shadow-top{background-image:linear-gradient(0deg,rgba(0,0,0,.5),transparent)}.swiper-3d .swiper-slide-shadow-bottom{background-image:linear-gradient(180deg,rgba(0,0,0,.5),transparent)}.swiper-lazy-preloader{border:4px solid var(--swiper-preloader-color,var(--swiper-theme-color));border-radius:50%;border-top:4px solid transparent;box-sizing:border-box;height:42px;left:50%;margin-left:-21px;margin-top:-21px;position:absolute;top:50%;transform-origin:50%;width:42px;z-index:10}.swiper-watch-progress .swiper-slide-visible .swiper-lazy-preloader,.swiper:not(.swiper-watch-progress) .swiper-lazy-preloader{animation:swiper-preloader-spin 1s linear infinite}.swiper-lazy-preloader-white{--swiper-preloader-color:#fff}.swiper-lazy-preloader-black{--swiper-preloader-color:#000}@keyframes swiper-preloader-spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}
+
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--base: #ffffff;--wp--preset--color--contrast: #000000;--wp--preset--color--primary: red;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}body { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-base-color{color: var(--wp--preset--color--base) !important;}.has-contrast-color{color: var(--wp--preset--color--contrast) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-background-color{background-color: var(--wp--preset--color--base) !important;}.has-contrast-background-color{background-color: var(--wp--preset--color--contrast) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-border-color{border-color: var(--wp--preset--color--base) !important;}.has-contrast-border-color{border-color: var(--wp--preset--color--contrast) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='the-analyst-theme-style-reset-css' href='https://theanalyst.com/wp-content/themes/the-analyst-theme/dist/css/reset.css' type='text/css' media='all' />
+<link rel='stylesheet' id='the-analyst-google-fonts-css' href='https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@300;400;500;700;800&#038;family=IBM+Plex+Mono&#038;family=Lora&#038;display=swap' type='text/css' media='all' />
+<link rel='stylesheet' id='the-analyst-theme-stylesheet-css' href='https://theanalyst.com/wp-content/themes/the-analyst-theme/dist/css/bundle.css?ver=9aac44663678f746a32d6d3b9d75feca' type='text/css' media='all' />
+<link rel='stylesheet' id='opta-games-leaderboard-style-css' href='https://theanalyst.com/wp-content/plugins/opta-games-leaderboards/build/index.css?ver=6.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='opta-games-psa-style-css' href='https://theanalyst.com/wp-content/plugins/opta-games-widgets/build/player-sorting-ad/index.css?ver=6.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='opta-games-widgets-google-fonts-css' href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&#038;display=swap' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://theanalyst.com/wp-content/plugins/tablepress/css/build/default.css?ver=2.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css' href='https://theanalyst.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16' type='text/css' media='all' />
+<script type="text/javascript" id="addtoany-core-js-before">
+/* <![CDATA[ */
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_localize = {
+	Share: "Share",
+	Save: "Save",
+	Subscribe: "Subscribe",
+	Email: "Email",
+	Bookmark: "Bookmark",
+	ShowAll: "Show all",
+	ShowLess: "Show less",
+	FindServices: "Find service(s)",
+	FindAnyServiceToAddTo: "Instantly find any service to add to",
+	PoweredBy: "Powered by",
+	ShareViaEmail: "Share via email",
+	SubscribeViaEmail: "Subscribe via email",
+	BookmarkInYourBrowser: "Bookmark in your browser",
+	BookmarkInstructions: "Press Ctrl+D or \u2318+D to bookmark this page",
+	AddToYourFavorites: "Add to your favorites",
+	SendFromWebOrProgram: "Send from any email address or email program",
+	EmailProgram: "Email program",
+	More: "More&#8230;",
+	ThanksForSharing: "Thanks for sharing!",
+	ThanksForFollowing: "Thanks for following!"
+};
+
+a2a_config.icon_color="transparent,#0a0a0a";
+/* ]]> */
+</script>
+<script type="text/javascript" async src="https://static.addtoany.com/menu/page.js" id="addtoany-core-js"></script>
+<script type="text/javascript" src="https://theanalyst.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://theanalyst.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" async src="https://theanalyst.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1" id="addtoany-jquery-js"></script>
+<script type="text/javascript" src="https://theanalyst.com/wp-content/plugins/pass-url-parameters-to-embeded-iframe/js/rwc-pass-parameters.js?ver=1.0" id="rwc_pass_parameters_script-js"></script>
+<link rel="https://api.w.org/" href="https://theanalyst.com/wp-json/" /><link rel="alternate" type="application/json" href="https://theanalyst.com/wp-json/wp/v2/posts/948" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://theanalyst.com/wp/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.3" />
+<meta name="generator" content="Seriously Simple Podcasting 3.0.2" />
+<link rel='shortlink' href='https://theanalyst.com/?p=948' />
+<link rel="alternate" type="application/json+oembed" href="https://theanalyst.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftheanalyst.com%2F2021%2F04%2Fhow-advanced-analytics-have-changed-basketball%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://theanalyst.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftheanalyst.com%2F2021%2F04%2Fhow-advanced-analytics-have-changed-basketball%2F&#038;format=xml" />
+
+<link rel="alternate" type="application/rss+xml" title="Podcast RSS feed" href="https://theanalyst.com/feed/podcast" />
+
+		<script src="https://www.flashb.id/universal/60b343cb-7c2f-574c-bf20-4b05b9d63ee1.js" data-cfasync="false" defer></script>
+		<script type="text/javascript" data-cfasync="false">
+			window._hbdbrk = window._hbdbrk || [];
+			window._hbdbrk.push(['_vars', {
+				page_type: 'article',
+				custom1: 'Taylor Bechtold',
+				custom2: 'nba',
+				custom3: '948',
+				custom4: '',
+				custom5: '',
+							}]);
+		</script>
+		<script>
+			window.actirisePlugin = window.actirisePlugin || {};
+			window.actirisePlugin.version = '2.3.2';
+			window.actirisePlugin.adsTxtActive = 'true';
+			window.actirisePlugin.adsTxtLastUpdate = '1710950739';
+			window.actirisePlugin.presizedActive = 'false';
+			window.actirisePlugin.presizedSelected = '[]';
+			window.actirisePlugin.presizedLastUpdate = '1713387939';
+			window.actirisePlugin.pluginLastUpdate = '1713387941';
+			window.actirisePlugin.cron = 'true';
+			window.actirisePlugin.noPub = '[]';
+			window.actirisePlugin.fastcmp = 'false';
+			window.actirisePlugin.debug = '1';
+		</script>
+		
+      </head>
+<body class="post-template-default single single-post postid-948 single-format-standard how-advanced-analytics-have-changed-basketball" data-template="base.twig">
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZBBPFZ"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+
+  <aside class="ta-ticker">
+    <h2 class="ta-ticker-heading">Match Ticker</h2>
+    <iframe src="https://dataviz.theanalyst.com/opta-football-predictions/?ticker=true" width="100%" height="120" target="_parent"></iframe>
+  </aside>
+
+  <header class="site-header">
+    <a href="https://theanalyst.com/na"
+   class="header-home-link"><svg width="228" height="43" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228 41.33"><defs><linearGradient id="a" x1="-190.63" y1="415.84" x2="-190.73" y2="415.94" gradientTransform="matrix(239.02 0 0 -239.02 45608.9 99438.71)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6327c6"/><stop offset=".48" stop-color="#b225c3"/><stop offset="1" stop-color="#e62c4a"/></linearGradient></defs><path fill="#fff" d="M136.37 8.79l9.51 24.05h-2.7l-2.7-7.02h-10.63l-2.77 7.02h-2.53l9.51-24.05h2.29zm3.34 15.01l-4.52-11.67-4.55 11.67h9.07zm12.6-6.53c-.74.12-1.46.31-2.16.56l-.51.2v14.81h-2.29V16.68l1.28-.54c1.91-.76 4-1.15 6.27-1.15 4.47 0 6.71 2.2 6.71 6.61v11.23h-2.26V21.66c0-3.06-1.57-4.59-4.72-4.59-.81 0-1.59.06-2.33.19zm20.37 5.67c.74.06 1.62.14 2.63.25v-1.55c0-1.46-.33-2.6-1-3.41-.66-.81-1.85-1.21-3.56-1.21-2.23 0-3.8.82-4.72 2.46l-.27.51-2.06-.84.34-.61c1.28-2.36 3.54-3.54 6.78-3.54 1.26 0 2.32.16 3.17.47.85.32 1.55.76 2.07 1.33.53.57.91 1.28 1.15 2.11.24.83.35 1.75.35 2.77v10.25l-1.21.51c-1.3.58-3.17.88-5.6.88-1.39 0-2.56-.1-3.49-.3-.93-.2-1.68-.52-2.24-.94-.56-.43-.96-.97-1.2-1.64-.24-.66-.35-1.44-.35-2.34 0-.94.13-1.75.4-2.41.27-.66.7-1.2 1.3-1.62.6-.42 1.36-.72 2.29-.91.93-.19 2.07-.29 3.42-.29.45 0 1.05.03 1.79.08zm2.63 7.74v-5.63c-2.02-.2-3.58-.3-4.66-.3-1.78 0-3.03.26-3.76.78s-1.1 1.36-1.1 2.53c0 .56.07 1.06.22 1.48.15.43.4.78.78 1.06.37.28.86.49 1.47.62s1.38.2 2.33.2c1.73 0 3.09-.18 4.08-.54l.64-.2zm4.75-22.8h2.26v24.96h-2.26V7.88zm19.11 26.01c0 4.86-2.39 7.29-7.19 7.29-3.17 0-5.41-1.19-6.71-3.58l-.37-.71 2.02-1.01.3.57c.97 1.78 2.54 2.66 4.72 2.66 3.28 0 4.92-1.71 4.92-5.13v-1.99c-1.01.32-1.95.54-2.82.67-.87.13-1.69.2-2.48.2-4.45 0-6.68-2.19-6.68-6.58V15.5h2.26v10.69c0 3.08 1.57 4.62 4.72 4.62 1.44 0 3.1-.3 4.99-.91V15.5h2.29v18.38zm14-5.64c0-.54-.1-.99-.29-1.35-.19-.36-.48-.65-.88-.88-.39-.22-.9-.4-1.52-.54-.62-.13-1.36-.25-2.21-.34-.85-.09-1.69-.2-2.5-.34-.81-.13-1.53-.38-2.18-.73-.64-.35-1.16-.84-1.55-1.47-.39-.63-.59-1.48-.59-2.56 0-1.57.56-2.81 1.69-3.71 1.12-.9 2.78-1.35 4.96-1.35 3.49 0 5.77 1.23 6.85 3.68h.03l.27.64-2.02.88-.24-.57h-.03c-.38-.85-.93-1.5-1.65-1.92-.72-.43-1.78-.64-3.17-.64-2.95 0-4.42.98-4.42 2.93 0 .74.17 1.33.51 1.77.34.44.84.75 1.52.93.25.07.48.12.69.17.21.05.43.08.66.12.22.03.48.06.76.08.28.02.6.06.96.1.81.09 1.61.21 2.39.35.79.15 1.49.4 2.11.76.62.36 1.12.84 1.5 1.45.38.61.57 1.42.57 2.43 0 1.62-.59 2.88-1.75 3.79-1.17.91-2.89 1.37-5.16 1.37-3.78 0-6.21-1.39-7.29-4.18-.02-.02-.03-.04-.03-.05s-.01-.03-.03-.05l-.17-.44 2.02-.88.27.67v.03c.74 1.93 2.46 2.9 5.16 2.9 3.17 0 4.76-1.02 4.76-3.07zm9.88 4.64c-.81-.26-1.46-.67-1.96-1.23-.49-.56-.84-1.27-1.05-2.13-.2-.85-.3-1.89-.3-3.1v-8.84h-3.81V15.5h3.81v-4.05H222v4.05h5.5v2.09H222v8.77c0 .94.07 1.73.22 2.34.15.62.4 1.11.76 1.47.36.36.85.61 1.48.76.63.15 1.42.22 2.36.22h.61v2.16h-1.32c-1.24-.02-2.26-.16-3.07-.42zM81.06 14.81c-2.74 0-5.01.35-6.81 1.05l-1.38.51v23.91h5.09v-7.22c1.01.2 1.9.3 2.66.3 2.58 0 4.53-.62 5.83-1.87 1.3-1.25 1.96-3.06 1.96-5.45v-4.25c0-2.25-.6-3.97-1.8-5.18-1.2-1.2-3.05-1.8-5.55-1.8zm2.23 11.23c0 1.84-1.02 2.76-3.07 2.76-.65 0-1.41-.07-2.26-.2v-8.97l.2-.03c.38-.09.76-.15 1.15-.19.38-.03.76-.05 1.15-.05 1.89 0 2.83.82 2.83 2.46v4.21zm16.47-6.21l1.5-4.52h-4.22v-4.05h-5.09v4.05h-3.03v4.52h3.03v5.87c0 1.53.16 2.78.47 3.76.31.98.8 1.75 1.45 2.33.65.57 1.5.97 2.55 1.2s2.29.34 3.73.34h.8v-4.69h-.8c-.58 0-1.07-.04-1.47-.13-.39-.09-.71-.25-.96-.49s-.42-.56-.52-.96c-.1-.4-.15-.92-.15-1.55v-5.66h2.72zm10.08-5.02c-3.55 0-5.96 1.17-7.22 3.51l-.51.98 4.21 1.75.54-.71c.63-.83 1.56-1.25 2.8-1.25 1.73 0 2.6.83 2.6 2.49v.74c-.36-.02-.74-.04-1.13-.05-.39-.01-.82-.02-1.26-.02-1.42 0-2.62.1-3.62.29-1 .19-1.81.5-2.43.93-.62.43-1.07.99-1.37 1.7-.29.71-.44 1.58-.44 2.61 0 .94.13 1.77.39 2.48s.69 1.29 1.28 1.74c.6.45 1.39.79 2.38 1.01.99.22 2.21.34 3.68.34 2.9 0 5.02-.3 6.37-.91.04-.02.13-.06.25-.12s.26-.12.42-.19c.18-.09.37-.18.57-.27v-9.95c0-4.74-2.51-7.11-7.52-7.11zm2.43 14.43l-.3.03c-.29.05-.65.08-1.08.1-.43.02-.93.03-1.52.03-.88 0-1.47-.14-1.79-.42-.32-.28-.47-.69-.47-1.23s.16-.92.49-1.2c.33-.28.94-.42 1.84-.42.13 0 .34 0 .62.02.28.01.57.02.88.02s.58 0 .84.02c.26.01.42.02.49.02v3.03zM68.71 10.8c-1.73-1.59-4.19-2.39-7.37-2.39s-5.61.8-7.34 2.39c-1.73 1.59-2.59 3.81-2.59 6.66v6.8c0 2.85.86 5.07 2.59 6.66 1.73 1.59 4.17 2.39 7.34 2.39s5.64-.8 7.37-2.39c1.73-1.59 2.59-3.81 2.59-6.66v-6.8c0-2.85-.86-5.07-2.59-6.66zm-2.89 13.56c0 2.63-1.49 3.94-4.48 3.94-1.44 0-2.54-.33-3.3-.99-.76-.66-1.14-1.64-1.14-2.95v-7c0-1.3.38-2.28 1.14-2.95.76-.66 1.86-.99 3.3-.99 2.98 0 4.48 1.31 4.48 3.94v7z"/><path d="M40.25 0c.59 0 1.08.48 1.08 1.08v9.95c0 .59-.48 1.08-1.08 1.08h-9.57c-.59 0-1.42.34-1.84.76l-1.28 1.28c-.42.42-.76 1.24-.76 1.84v7.15c0 .59-.48 1.08-1.08 1.08h-7.15c-.59 0-1.42.34-1.84.76l-1.28 1.28c-.42.42-.76 1.24-.76 1.84v4.73c0 .59-.48 1.08-1.08 1.08H8.88c-.59 0-1.42.34-1.84.76l-1.28 1.28c-.42.42-.76 1.24-.76 1.84v2.31c0 .59-.48 1.08-1.08 1.08H1.24c-.59 0-1.08-.48-1.08-1.08h.01v-2.69c0-.59.48-1.08 1.08-1.08h2.3c.59 0 1.42-.34 1.84-.76l1.28-1.28c.42-.42.76-1.24.76-1.84v-4.73c0-.59.48-1.08 1.08-1.08h4.73c.59 0 1.42-.34 1.84-.76l1.28-1.28c.42-.42.76-1.24.76-1.84v-7.15c0-.59.48-1.08 1.08-1.08h7.15c.59 0 1.42-.34 1.84-.76l1.28-1.28c.42-.42.76-1.24.76-1.84V1.08c0-.59.48-1.08 1.08-1.08h9.95zm0 14.51c.59 0 1.08.48 1.08 1.08v7.54c0 .59-.48 1.08-1.08 1.08h-7.16c-.59 0-1.42.34-1.84.76l-1.28 1.28c-.42.42-.76 1.24-.76 1.84v4.73c0 .59-.48 1.08-1.08 1.08H23.4c-.59 0-1.42.34-1.84.76l-1.28 1.28c-.42.42-.76 1.24-.76 1.84v2.31c0 .59-.48 1.08-1.08 1.08h-2.69c-.59 0-1.08-.48-1.08-1.08V37.4c0-.59.48-1.08 1.08-1.08h2.31c.59 0 1.42-.34 1.84-.76l1.28-1.28c.42-.42.76-1.24.76-1.84v-4.73c0-.59.48-1.08 1.08-1.08h4.73c.59 0 1.42-.34 1.84-.76l1.28-1.28c.42-.42.76-1.24.76-1.84v-7.16c0-.59.48-1.08 1.08-1.08h7.54zm0 12.14c.59 0 1.07.48 1.07 1.07v5.1c0 .59-.48 1.07-1.07 1.07h-4.72c-.59 0-1.41.34-1.83.76l-1.28 1.28c-.42.42-.76 1.24-.76 1.83v2.31c0 .59-.48 1.07-1.07 1.07H27.9c-.59 0-1.07-.48-1.07-1.07v-2.69c0-.59.48-1.07 1.07-1.07h2.31c.59 0 1.41-.34 1.83-.76l1.28-1.28c.42-.42.76-1.24.76-1.83v-4.72c0-.59.48-1.07 1.07-1.07h5.1zm-.01 9.61c.6 0 1.09.47 1.09 1.05v2.62c0 .58-.49 1.05-1.09 1.05h-2.72c-.6 0-1.09-.47-1.09-1.05v-2.62c0-.58.49-1.05 1.09-1.05h2.72z" fill="url(#a)"/></svg></a>
+
+<button class="header-nav-hamburger hamburger hamburger--spring" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+
+<nav class="header-nav" role="navigation">
+  <div class="header-nav-container">
+    <form role="search" method="get" class="search-form" action="https://theanalyst.com">
+  <label class="search-form__label"><svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M10.605 0L15 4.394v6.212l-1.49 1.489 6.404 6.405-1.414 1.414-6.405-6.404-1.49 1.49H4.394L0 10.606V4.393L4.393 0h6.212zm-.829 2H5.221L2 5.221v4.556L5.223 13h4.552L13 9.776V5.223L9.776 2z" fill-opacity=".5" fill-rule="evenodd"/></svg>
+    <input type="text" class="search-form__input" value="" name="s"
+           autocomplete="off" placeholder="Search"/>
+  </label>
+  <button type="submit" class="search-form__submit button" disabled>
+    <span class="search-form__submit--mbl"><svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M10.605 0L15 4.394v6.212l-1.49 1.489 6.404 6.405-1.414 1.414-6.405-6.404-1.49 1.49H4.394L0 10.606V4.393L4.393 0h6.212zm-.829 2H5.221L2 5.221v4.556L5.223 13h4.552L13 9.776V5.223L9.776 2z" fill-opacity=".5" fill-rule="evenodd"/></svg></span>
+    <span class="search-form__submit--dsktp">Search</span>
+  </button>
+</form>
+    
+<ul class="header-nav-menu menu-list">
+
+  <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-173 menu-item-has-children">
+    <div class="menu-subnav-header">    <a class="menu-item-nav-link"href="/na/sport/american-football/">Football</a>
+    </div>              
+<ul style="--start-color:#df306c;--end-color:#e62c4a;" class="header-nav-menu menu-sublist">
+
+  <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-174">
+      <a class="menu-item-nav-link"href="/na/sport/american-football/nfl/">NFL</a>
+      </li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-87236">
+      <a class="menu-item-nav-link"href="/na/2023/09/nfl-predictions-2023/">NFL Predictions</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-175">
+      <a class="menu-item-nav-link"href="/na/sport/american-football/fantasy/">Fantasy</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40279">
+      <a class="menu-item-nav-link"href="/na/sport/american-football/fbs/">FBS</a>
+      </li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-87238">
+      <a class="menu-item-nav-link"href="/na/2023/06/fbs-stats-hub-and-tracr-college-football-rankings/">FBS Predictions</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-177">
+      <a class="menu-item-nav-link"href="/na/sport/american-football/fcs/">FCS</a>
+      </li>
+
+</ul>
+  </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-185 menu-item-has-children">
+    <div class="menu-subnav-header">    <a class="menu-item-nav-link"href="/na/sport/basketball/">Basketball</a>
+    </div>              
+<ul style="--start-color:#eba221;--end-color:#e5c332;" class="header-nav-menu menu-sublist">
+
+  <li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-186">
+      <a class="menu-item-nav-link"href="/na/sport/basketball/nba/">NBA</a>
+      </li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-101194">
+      <a class="menu-item-nav-link"href="/na/2023/12/nba-predictions-2023-24/">NBA Predictions</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-187">
+      <a class="menu-item-nav-link"href="/na/sport/basketball/ncaa/">NCAA</a>
+      </li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-98534">
+      <a class="menu-item-nav-link"href="/na/2023/08/college-basketball-rankings-and-predictions/">NCAA Predictions</a>
+      </li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-116570">
+      <a class="menu-item-nav-link"href="/na/2024/03/ncaa-basketball-tournament-2024-march-madness-bracket/">NCAA Tournament</a>
+      </li>
+
+</ul>
+  </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2088">
+      <a class="menu-item-nav-link"href="/na/sport/baseball/mlb/">Baseball</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-178 menu-item-has-children">
+    <div class="menu-subnav-header">    <a class="menu-item-nav-link"href="/na/sport/football/">Soccer</a>
+    </div>              
+<ul style="--start-color:#b225c3;--end-color:#e02b8f;" class="header-nav-menu menu-sublist">
+
+  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-78685">
+      <a class="menu-item-nav-link"href="/na/2022/08/2022-23-football-stats/">Soccer Stat Hubs</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-179">
+      <a class="menu-item-nav-link"href="/na/sport/football/premier-league/">Premier League</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-180">
+      <a class="menu-item-nav-link"href="/na/sport/football/champions-league/">Champions League</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-181">
+      <a class="menu-item-nav-link"href="/na/sport/football/la-liga/">La Liga</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-182">
+      <a class="menu-item-nav-link"href="/na/sport/football/bundesliga/">Bundesliga</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-183">
+      <a class="menu-item-nav-link"href="/na/sport/football/serie-a/">Serie A</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-184">
+      <a class="menu-item-nav-link"href="/na/sport/football/ligue-1/">Ligue 1</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-113224">
+      <a class="menu-item-nav-link"href="/na/sport/football/efl/">EFL</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16226">
+      <a class="menu-item-nav-link"href="/na/sport/football/wsl/">WSL</a>
+      </li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-113223">
+      <a class="menu-item-nav-link"href="/na/2024/01/opta-player-comparison-tool/">Opta Player Radars</a>
+      </li>
+
+</ul>
+  </li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86776">
+      <a class="menu-item-nav-link"href="/na/2023/08/opta-football-predictions/">Soccer Predictions</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1598">
+      <a class="menu-item-nav-link"href="/na/sport/golf/">Golf</a>
+      </li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191 menu-item-has-children">
+    <div class="menu-subnav-header">    <a class="menu-item-nav-link">Other</a>
+    </div>              
+<ul style="--start-color:#6327c6;--end-color:#a324c5;" class="header-nav-menu menu-sublist">
+
+  <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1599">
+      <a class="menu-item-nav-link"href="/na/sport/tennis/">Tennis</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-194">
+      <a class="menu-item-nav-link"href="/na/sport/rugby/">Rugby</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-195">
+      <a class="menu-item-nav-link"href="/na/sport/cricket/">Cricket</a>
+      </li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1622">
+      <a class="menu-item-nav-link"href="/na/sport/metric-explainers/">Metric Explainers</a>
+      </li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14026">
+      <a class="menu-item-nav-link"href="/na/sign-up/">Newsletter</a>
+      </li>
+
+</ul>
+  </li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94671 menu-item-has-children">
+    <div class="menu-subnav-header">    <a class="menu-item-nav-link"href="/na/opta-games/">Free Games</a>
+    </div>              
+<ul style="--start-color:#E56329;--end-color:#EB842C;" class="header-nav-menu menu-sublist">
+
+  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-93947">
+      <a class="menu-item-nav-link"href="https://optaplayerratings.theanalyst.com/preview?utm_medium=navigation&utm_source=theanalyst&utm_campaign=landing-page-preview"target="_blank">Opta Max</a>
+      </li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-93949">
+      <a class="menu-item-nav-link"href="https://optafive.theanalyst.com/epl?utm_medium=navigation&utm_source=theanalyst&utm_campaign=optagames"target="_blank">Opta Five</a>
+      </li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-93948">
+      <a class="menu-item-nav-link"href="https://optaplayerratings.theanalyst.com/preview?utm_medium=navigation&utm_source=theanalyst&utm_campaign=landing-page-preview"target="_blank">Opta Player Ratings</a>
+      </li>
+
+</ul>
+  </li>
+
+</ul>
+    <button class="search-toggle">
+      <span class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10.7 0l4.4 4.4v6.2l-1.5 1.5 6.4 6.4-1.4 1.5-6.4-6.4-1.5 1.5H4.4L0 10.7V4.4L4.4 0h6.3zm-.9 2H5.2L2 5.2v4.6L5.2 13h4.6L13 9.8V5.2L9.8 2z" fill="#fff"/></svg></span>
+    </button>
+    <a href="https://www.statsperform.com/" target="_blank" class="header-nav-stats-perform-link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.13 37.27"><defs><style>.cls-1{opacity:.75}.cls-2{fill:#fff}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g class="cls-1"><path class="cls-2" d="M88.86 26.21l-3.07 5.62-3.03-5.62h-2.25v10.83h2.32v-6.1l2.15 3.82h1.6l2.17-3.88v6.16h2.38V26.21h-2.27zm-12.79 4.44a1.26 1.26 0 01-.94.32H73v-2.5h2.12a1.27 1.27 0 01.94.33 1.25 1.25 0 01.33.92 1.23 1.23 0 01-.33.93zM77.31 33a.93.93 0 00-.1-.16 2.67 2.67 0 001.37-1.27 3.27 3.27 0 00.3-.88 4.53 4.53 0 00.1-1 4 4 0 00-.26-1.47 3.07 3.07 0 00-.72-1.08 3.11 3.11 0 00-1.14-.69 4.39 4.39 0 00-1.49-.24h-4.84V37H73v-3.8h.63a3 3 0 01.55 0 1 1 0 01.39.14 1.32 1.32 0 01.3.28 2.42 2.42 0 01.27.44L76.57 37h2.88l-1.92-3.66-.22-.34zm-10.64.22c0 1.19-.68 1.78-2 1.78a2.24 2.24 0 01-1.5-.45 1.68 1.68 0 01-.51-1.33V30a1.68 1.68 0 01.51-1.33 2.24 2.24 0 011.5-.45c1.35 0 2 .59 2 1.78v3.18zM68 27.07a5.69 5.69 0 00-6.67 0 3.91 3.91 0 00-1.17 3v3.08a3.91 3.91 0 001.17 3 5.69 5.69 0 006.67 0 3.91 3.91 0 001.17-3v-3.06a3.91 3.91 0 00-1.17-3zm-16.18 9.97h2.49v-4.13h3.38l.75-2.26h-4.13v-2.18h4.89v-2.26h-7.38v10.83zm-4.44-6.39a1.28 1.28 0 01-.94.32h-2.12v-2.5h2.12a1.13 1.13 0 011.26 1.25 1.26 1.26 0 01-.32.93zm1.45 2.73l-.21-.38a.77.77 0 00-.11-.16 2.88 2.88 0 00.83-.53 3.1 3.1 0 00.55-.74 3.27 3.27 0 00.3-.88 5.25 5.25 0 00.09-1 4 4 0 00-.28-1.44 3.23 3.23 0 00-.72-1.11 3.15 3.15 0 00-1.13-.69 4.45 4.45 0 00-1.5-.24h-4.82V37h2.49v-3.8h.62a2.88 2.88 0 01.55 0 1 1 0 01.4.14 1.32 1.32 0 01.3.28 3.2 3.2 0 01.26.44L47.87 37h2.88l-1.92-3.66zm-13.24-.68h3.35l.75-2.26h-4.1v-1.97h4.89v-2.26H33.1v10.83h7.54v-2.27h-5.05V32.7zm-4.66-5.51a3.16 3.16 0 00-1.17-.72 4.48 4.48 0 00-1.56-.26h-4.71V37H26v-8.53h2a1.43 1.43 0 011.06.38 1.4 1.4 0 01.36 1 1.38 1.38 0 01-.36 1 1.46 1.46 0 01-1.06.36h-.59l-.75 2.27h1.6a4.58 4.58 0 001.57-.25 3.3 3.3 0 001.17-.72 3.08 3.08 0 00.74-1.14 4.66 4.66 0 000-3.07 3.1 3.1 0 00-.75-1.15zm37.57-2.87a4.44 4.44 0 001.43-.7 3.2 3.2 0 00.9-1.11 3.73 3.73 0 000-3 2.55 2.55 0 00-.87-1 3.94 3.94 0 00-1.28-.51 9.83 9.83 0 00-1.49-.28l-.5-.06-.4-.06-.29-.09-.35-.1c-.47-.17-.7-.44-.7-.83a.87.87 0 01.42-.8 2.79 2.79 0 011.38-.25 1.85 1.85 0 011.8 1l.2.39 2.29-1-.2-.42a3.69 3.69 0 00-1.5-1.7 5.27 5.27 0 00-2.59-.55 6.52 6.52 0 00-1.85.25 4.17 4.17 0 00-1.36.71 3.13 3.13 0 00-.85 1.07 3.32 3.32 0 00-.29 1.39 3.74 3.74 0 00.41 1.63 2.65 2.65 0 00.92 1 4 4 0 001.31.48c.5.1 1 .18 1.59.26a5.13 5.13 0 011.53.34.79.79 0 01.53.75c0 .81-.68 1.21-2 1.21a2 2 0 01-2-1.05.31.31 0 000-.12.85.85 0 01-.1-.19 2.17 2.17 0 01-.12-.26l-2.27.81.21.58q.91 2.47 4.29 2.47a6.88 6.88 0 001.89-.24zM61.17 13.5h-9.02l.71 2.26H56v8.57h2.47v-8.57h2.7V13.5zm-15 10.83l.32-.96.35-1.04.67-2.01.32-.96.58-1.75.33-1 1.22 3.71H48.3l-.67 2.01h2.99l.65 2H54L49.95 13.5h-2.32l-4.08 10.83h2.62zm-.75-10.83h-9.34v2.26h3.02v8.57h2.48v-8.57h3.1l.74-2.26zM30.78 24.56a6.88 6.88 0 001.89-.24 4.38 4.38 0 001.42-.7 3 3 0 00.9-1.11 3.24 3.24 0 00.32-1.44 3.41 3.41 0 00-.31-1.56 2.72 2.72 0 00-.87-1 3.94 3.94 0 00-1.28-.51 10.07 10.07 0 00-1.49-.28l-.5-.06-.4-.06-.35-.08-.34-.1c-.47-.17-.7-.44-.7-.83a.87.87 0 01.42-.8 2.79 2.79 0 011.38-.25 1.85 1.85 0 011.8 1l.2.39 2.29-1-.2-.42a3.69 3.69 0 00-1.5-1.7 5.27 5.27 0 00-2.59-.55 6.52 6.52 0 00-1.85.25 4.07 4.07 0 00-1.36.71 3 3 0 00-.85 1.07 3.32 3.32 0 00-.29 1.39 3.74 3.74 0 00.41 1.63 2.65 2.65 0 00.92 1 3.91 3.91 0 001.31.48c.5.1 1 .18 1.59.26a5.13 5.13 0 011.53.34.79.79 0 01.53.75c0 .81-.68 1.21-2 1.21a1.94 1.94 0 01-2-1.05.42.42 0 000-.12 1.72 1.72 0 01-.09-.19 2.17 2.17 0 01-.12-.26l-2.27.81.21.58q.92 2.47 4.29 2.47zM8.25 15.58H4.08L0 27.87h4.18l4.07-12.29zM15.53 19l-4.44 13.32h4.18L19.71 19zm-.22-5.68l-8 24H3.16l8-24z"/></g><g class="cls-1"><path class="cls-2" d="M15.41 0H19l.85.86V3l-.85.89h-2.53v2.32h-1.06zm3 3.1l.37-.38V1.16l-.33-.37h-2V3.1zm3.25 2.22V.89l.89-.89h2.84l.88.89v4.43l-.88.89h-2.84zm3.14.07l.41-.39V1.24L24.8.82h-1.66l-.42.42V5l.42.42zM27.85 0h1l.88 5.26L30.84 0h1.38l1.09 5.26.88-5.26h.91l-1.16 6.21h-1.35L31.5.94l-1.1 5.27H29zm8.96 0h3.83v.84h-2.77v1.83h2.55v.82h-2.55v1.88h2.79v.84h-3.85zm5.83 0h3.7l.82.84v1.9l-.75.76.85 2.71h-1.09l-.78-2.55h-1.68v2.55h-1.07zm3.07 2.86l.39-.39V1.15l-.37-.38h-2v2.09zM49.22 0h3.83v.84h-2.76v1.83h2.54v.82h-2.54v1.88h2.78v.84h-3.85zm5.83 0h3.62l.9.89v4.43l-.9.89h-3.62zm3 5.39L58.5 5V1.24l-.42-.42h-2v4.57zM64.83 0h3.72l.79.79v1.55l-.67.66.68.67v1.75l-.79.79h-3.73zm3 2.6l.4-.39V1.13l-.3-.35h-2V2.6zm.06 2.81l.35-.33V3.82l-.43-.43h-2v2zm4.83-1.16L70.79 0h1.14l1.37 3.19L74.68 0h1l-1.9 4.25v2h-1.06z"/></g></g></g></svg>
+    </a>
+  </div>
+</nav>
+  </header>
+
+  
+  <article class="post post__type--post" id="post__948">
+    <header>
+              <img class="post-hero-image" src="https://theanalyst.com/wp-content/uploads/2021/03/state-of-analytics-basketball-banner.jpg" alt="How the &#8216;Idiots Who Believe&#8217; in the Analytics Movement Have Forever Changed Basketball"
+             srcset="https://theanalyst.com/wp-content/uploads/2021/03/state-of-analytics-basketball-banner.jpg 1360w, https://theanalyst.com/wp-content/uploads/2021/03/state-of-analytics-basketball-banner-300x209.jpg 300w, https://theanalyst.com/wp-content/uploads/2021/03/state-of-analytics-basketball-banner-1024x715.jpg 1024w, https://theanalyst.com/wp-content/uploads/2021/03/state-of-analytics-basketball-banner-768x536.jpg 768w" sizes="(max-width: 1360px) 100vw, 1360px" />
+      
+                                <div class="post-pills">
+                                            <a class="pill post-taxonomy-pill" href="/na/sport/basketball/nba/" style="--start-color:#e56329;--end-color:#eb842c;">NBA</a>
+                      </div>
+              
+              <div class="post-title">
+          <h1>How the &#8216;Idiots Who Believe&#8217; in the Analytics Movement Have Forever Changed Basketball</h1>
+        </div>
+      
+                          <div class="post-meta">
+                      <time class="post-meta-time" datetime="2021-04-15 09:31:32">Apr 15, 2021</time>
+          
+                      <div class="post-meta-authors"><a class="post-meta-author"
+                   href="/na/author/taylor-bechtold/">Taylor Bechtold <span>/ Author</span></a>, <a class="post-meta-author"
+                   href="/na/author/matt-sisneros/">Matt Sisneros <span>/ Design</span></a></div>
+                  </div>
+      
+              <div class="post-social">
+                      <div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_10 addtoany_list" data-a2a-url="https://theanalyst.com/na/2021/04/how-advanced-analytics-have-changed-basketball/" data-a2a-title="How the &#8216;Idiots Who Believe&#8217; in the Analytics Movement Have Forever Changed Basketball"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Ftheanalyst.com%2Fna%2F2021%2F04%2Fhow-advanced-analytics-have-changed-basketball%2F&amp;linkname=How%20the%20%26%238216%3BIdiots%20Who%20Believe%26%238217%3B%20in%20the%20Analytics%20Movement%20Have%20Forever%20Changed%20Basketball" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Ftheanalyst.com%2Fna%2F2021%2F04%2Fhow-advanced-analytics-have-changed-basketball%2F&amp;linkname=How%20the%20%26%238216%3BIdiots%20Who%20Believe%26%238217%3B%20in%20the%20Analytics%20Movement%20Have%20Forever%20Changed%20Basketball" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Ftheanalyst.com%2Fna%2F2021%2F04%2Fhow-advanced-analytics-have-changed-basketball%2F&amp;linkname=How%20the%20%26%238216%3BIdiots%20Who%20Believe%26%238217%3B%20in%20the%20Analytics%20Movement%20Have%20Forever%20Changed%20Basketball" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>
+                  </div>
+          </header>
+
+    <div class="post-content">
+              <div class="addtoany_shortcode"><div class="a2a_kit a2a_kit_size_10 addtoany_list" data-a2a-url="https://theanalyst.com/na/2021/04/how-advanced-analytics-have-changed-basketball/" data-a2a-title="How the &#8216;Idiots Who Believe&#8217; in the Analytics Movement Have Forever Changed Basketball"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Ftheanalyst.com%2Fna%2F2021%2F04%2Fhow-advanced-analytics-have-changed-basketball%2F&amp;linkname=How%20the%20%26%238216%3BIdiots%20Who%20Believe%26%238217%3B%20in%20the%20Analytics%20Movement%20Have%20Forever%20Changed%20Basketball" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_whatsapp" href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Ftheanalyst.com%2Fna%2F2021%2F04%2Fhow-advanced-analytics-have-changed-basketball%2F&amp;linkname=How%20the%20%26%238216%3BIdiots%20Who%20Believe%26%238217%3B%20in%20the%20Analytics%20Movement%20Have%20Forever%20Changed%20Basketball" title="WhatsApp" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Ftheanalyst.com%2Fna%2F2021%2F04%2Fhow-advanced-analytics-have-changed-basketball%2F&amp;linkname=How%20the%20%26%238216%3BIdiots%20Who%20Believe%26%238217%3B%20in%20the%20Analytics%20Movement%20Have%20Forever%20Changed%20Basketball" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div>
+            <div class="post-content-wrapper">
+        
+<p class="has-text-align-center"><strong><em>As Moneyball’s influence began to spread, basketball teams began to explore what advanced data could do for them. The game will never be the same.</em></strong></p>
+
+
+
+<hr class="wp-block-separator has-css-opacity is-style-dots"/>
+
+
+
+<p>In the aftermath of baseball&#8217;s analytics movement&nbsp;and the attention that followed, data’s influence seemed to spread to the basketball world overnight.</p>
+
+
+
+<p>That’s partly because there were those who were anxious to find out if the way general manager <a href="https://theanalyst.com/na/2021/04/how-the-analytics-movement-has-forever-changed-baseball/" target="_blank" rel="noreferrer noopener">Billy Beane and the cash-strapped Oakland A’s</a> succeeded by embracing an analytics-heavy scouting and player-evaluation model could translate to other sports.</p>
+
+
+
+<p>The A’s game-changing strategy was the subject of Michael Lewis’ 2003 award-winning book ‘Moneyball: The Art of Winning an Unfair Game’ and featured in the ’11 film adaptation that was nominated for six Academy Awards, including Brad Pitt for playing the role of Beane.</p>
+
+
+
+<p>The lesson was simple: There’s deeper value in the metrics. Soon, basketball teams realized this mindset could indeed translate to the court and success could likewise be mined from the data. Because technology wasn’t yet capable of sparking an analytics revolution early on, there was no way to predict how far we’d come once ingenious basketball minds had computer algorithms, tracking and wearable technology and artificial intelligence at their disposal.</p>
+
+
+
+<p>That’s not to say there haven’t been innovative thinkers who have tried to tinker with the systematic examination and evaluation of data as early as the first half of the 20th&nbsp;century. According to the National Association of Basketball Coaches, Howard Hobson – who had led Oregon to the first NCAA championship in 1939 – became one of the first coaches to analyze the game statistically.</p>
+
+
+
+<p>He even published a book on shooting percentages and other phases of the game called ‘Scientific Basketball’ in 1949. Though his revolutionary ideas failed to catch on immediately, Hobson’s research helped lead to the eventual widening of the free-throw lane and the implementation of the shot clock and 3-point line.</p>
+
+
+
+<p>In the mid-50s, Air Force head coach Bob Spear and assistant Dean Smith, who would later become a Hall of Famer following an illustrious 36-year stint at North Carolina, created a possession evaluation system that assessed a team’s performance both offensively and defensively. Smith believed box score numbers and total points scored and allowed didn’t tell the whole story of a game partly because it failed to take into account the pace or total number of possessions.</p>
+
+
+
+<figure id="figure-954"class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://theanalyst.com/wp-content/uploads/2021/03/ap-563963273271-1024x700.jpg" alt="Michael Jordan and Dean Smith" class="wp-image-954" width="768" height="525" srcset="https://theanalyst.com/wp-content/uploads/2021/03/ap-563963273271-1024x700.jpg 1024w, https://theanalyst.com/wp-content/uploads/2021/03/ap-563963273271-300x205.jpg 300w, https://theanalyst.com/wp-content/uploads/2021/03/ap-563963273271-768x525.jpg 768w, https://theanalyst.com/wp-content/uploads/2021/03/ap-563963273271-1536x1051.jpg 1536w, https://theanalyst.com/wp-content/uploads/2021/03/ap-563963273271.jpg 2000w" sizes="(max-width: 768px) 100vw, 768px" /><figcaption class="wp-element-caption"><em>Michael Jordan and North Carolina coach Dean Smith in 1984. (AP Photo, File)</em></figcaption></figure>
+
+
+
+<p>Paul Keller, another pioneer who coached and taught math at a high school in Ohio, also felt that “points in a game actually mean nothing, but points per possession mean everything.” Keller came up with his own version of an offensive efficiency rating system in 1960 and used this metric to track Ohio State during its national title season in ’60 and runner-up finishes in ’61 and ’62.</p>
+
+
+
+<p>Though Smith and other progressives continued their attempts to dig deeper into statistical analysis through the 1980s, box score-based numbers (think points, rebounds and assists) dominated the statistical landscape through the ’90s.</p>
+
+
+
+<p>It was right around this time, however, that baseball fan and aspiring writer Bill James attempted to expand the thought process beyond basic stats into what he called the “ever-expanding line of numerical analysis.” Because of his work, he would become known as the Godfather of Sabermetrics – the Society for American Baseball Research (SABR).</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p><em><strong>“Any time you can add understanding to your enjoyment of something, I think it makes everything better.” – Ken Pomeroy&nbsp;</strong></em></p>
+</blockquote>
+
+
+
+<p>The tempo-based metrics created by Ken Pomeroy in the early 2000s were compared by many to James’ work in baseball. Pomeroy, the founder of the popular college basketball website kenpom.com, would eventually make a major impact on betting lines as a result of his accuracy in predicting game outcomes. His ratings are now used by not only teams in an attempt to gain a competitive advantage but also by the NCAA Tournament Committee to help determine at-large qualifiers and seeding.</p>
+
+
+
+<p>“Obviously, not all fans are necessarily willing to bury their head in the numbers, but it really helps their understanding of other teams, the game itself,” Pomeroy said. “And any time you can add understanding to your enjoyment of something, I think it makes everything better.”</p>
+
+
+
+<p>In the wake of Moneyball’s immense popularity, Dean Oliver similarly sought to break the mold in 2004 with his groundbreaking ‘Basketball on Paper’ during a time when modern metrics had yet to become mainstream in NBA front offices and within the fandom. Oliver’s work, which highlighted his four factors in breaking down efficiency (shooting efficiency, rebounding percentage, turnovers per possession and free-throw attempts), became a must-have handbook for basketball analysis and led to a growth in analytical blogs and websites like Basketball Reference, FiveThirtyEight and NBAstuffer.</p>
+
+
+
+<p>Inspired by James’ baseball win shares and based on Oliver’s points produced and offensive possession analysis, Basketball Reference soon created its own version of win shares. Advanced box score metrics like effective field-goal percentage or EFG, usage rate, true shooting percentage, adjusted plus/minus, value over replacement player or VORP – basketball’s equivalent of baseball’s wins above replacement or WAR – and John Hollinger’s player efficiency rating or PER also came to the forefront during this statistical revolution.</p>
+
+
+
+<p>As Moneyball’s influence began to spread, NBA teams considered exploring what advanced data could reveal about their team’s processes and strategies. With an eye on getting the most out of their spending, teams became more open-minded when it came to taking a closer look at not only how players performed but how their actions were impacting others on the court.</p>
+
+
+
+<p>Someone like Oliver, considered by some to be the Bill James of basketball, could certainly help teams look at things differently. He was hired as a consultant for the Seattle SuperSonics in 2004 before moving on to analytical positions with the Denver Nuggets, ESPN and the Sacramento Kings, and serving as an assistant coach for analytics with the Washington Wizards.</p>
+
+
+
+<p>The advanced metrics not only led to big, bold ideas when it came to in-game decision making and strategy, they also emerged as a key reference when it came to trades, contract negotiations, training practices and managing the health of players.&nbsp;Sophisticated models like Kevin Pelton’s wins above replacement player (WARP) projections and the FiveThirtyEight’s career-arc regression model estimator with local optimization (CARMELO) ratings became tools for prospect evaluation, draft analysis and draft-pick position valuation.</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p><em><strong>“Player tracking data is a step toward information about drawing the defense, spacing and on-ball defense. Those are steps toward player value, which is the knowledge owners pay for.” – Dean Oliver</strong></em></p>
+</blockquote>
+
+
+
+<p>The analytics movement reached another level in 2008 with SportVU, an in-venue optical tracking tool that was originally developed for soccer. The ingenuity of utilizing the technology for basketball proved to be a game-changer as it essentially added a third dimension to the stats that existed at the time and painted data-driven, detailed pictures of the action in a way that had never been done before.</p>
+
+
+
+<p>The basketball world was now able to go well beyond box scores and event-based metrics to objectively analyze player performance. It no longer had to settle for field-goal percentage or 3-point shooting percentage as analysts could now measure which players were proficient at hitting contested jump shots, pull-up jumpers, shots in catch-and-shoot situations, and jumpers while coming off a ball screen.</p>
+
+
+
+<p>The Dallas Mavericks, Houston Rockets, Oklahoma City Thunder and San Antonio Spurs had SportVU cameras installed just two years later, giving them access to positioning data for all players and the ball at a rate of 25 frames per second. As the benefits of the groundbreaking system emerged, the NBA quickly took notice and became the first American sports league to use player tracking in every game in 2013.</p>
+
+
+
+<figure id="figure-957"class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://theanalyst.com/wp-content/uploads/2021/03/screen-shot-2021-03-16-at-105501-am.png" alt="Sports VU cameras" class="wp-image-957" width="798" height="410" srcset="https://theanalyst.com/wp-content/uploads/2021/03/screen-shot-2021-03-16-at-105501-am.png 798w, https://theanalyst.com/wp-content/uploads/2021/03/screen-shot-2021-03-16-at-105501-am-300x154.png 300w, https://theanalyst.com/wp-content/uploads/2021/03/screen-shot-2021-03-16-at-105501-am-768x395.png 768w" sizes="(max-width: 798px) 100vw, 798px" /><figcaption class="wp-element-caption"><em>The NBA became the first American sports league to use player tracking in every game in 2013. </em></figcaption></figure>
+
+
+
+<p>“It’s the culmination of a decade of the basketball analytics revolution, where different people, different methods and different data have advanced the status of basketball as a thinking man’s game,” Oliver wrote in a 2013 ESPN article. “Data is still just a step toward information, and information is just a step toward knowledge. Player tracking data is a step toward information about drawing the defense, spacing and on-ball defense. Those are steps toward player value, which is the knowledge owners pay for.”</p>
+
+
+
+<p>With SportVU cameras installed in every arena, teams needed a way to interpret the avalanche of complex data coming in. As a result, computer engineers and data scientists with machine learning skills were in high demand almost overnight. Their analysis revealed new ways to measure players both offensively and defensively in situations such as isolation plays, post-ups, drives to the basket and when giving, using or going up against a ball screen. Additionally, it could identify which players were better than average passers and which excelled at moving offensively without the ball.</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p><em><strong>“After studying and going through the school of analytics, I knew exactly to a T who Kobe Bryant was.” – Shane Battier</strong></em></p>
+</blockquote>
+
+
+
+<p>The data also revealed, for example, whether a player was less effective when moving one way as opposed to another or how often a player performed a certain move when driving left or right. Shane Battier, who the analytics showed to be one of the league’s most undervalued players over his 13-year career, spoke on this for the knowledge forum Big Think in reference to how he approached defending the late, great Kobe Bryant:</p>
+
+
+
+<p>“After studying and going through the school of analytics, I knew exactly to a T who Kobe Bryant was,” he explained. “The average possession of the Los Angeles Lakers in 2008 generated .98 points per possession… Kobe Bryant only shot the left-handed pull-up jumper at a 44%&nbsp;clip. So every time that he went left and shot that pull-up jumper he was generating .88 points per possession. Well, that’s a tenth of a point less than the average Laker possession. And so if I could make him do that time and time again, which is a lot tougher to do than to say, I’m shaving off a tenth of a point every single time… and all of a sudden those tenths of a point become points.”</p>
+
+
+
+<figure id="figure-959"class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://theanalyst.com/wp-content/uploads/2021/03/ap-120119148498-1024x706.jpg" alt="Shane Battier and Kobe Bryant" class="wp-image-959" width="768" height="530" srcset="https://theanalyst.com/wp-content/uploads/2021/03/ap-120119148498-1024x706.jpg 1024w, https://theanalyst.com/wp-content/uploads/2021/03/ap-120119148498-300x207.jpg 300w, https://theanalyst.com/wp-content/uploads/2021/03/ap-120119148498-768x529.jpg 768w, https://theanalyst.com/wp-content/uploads/2021/03/ap-120119148498-1536x1058.jpg 1536w, https://theanalyst.com/wp-content/uploads/2021/03/ap-120119148498-2048x1411.jpg 2048w" sizes="(max-width: 768px) 100vw, 768px" /><figcaption class="wp-element-caption"><em>Shane Battier said analytics helped him to better defend Kobe Bryant. (AP Photo/Lynne Sladky)</em></figcaption></figure>
+
+
+
+<p>With every movement on the court tracked and quantified, SportVU data would have a profound and lasting impact on how the game is played. In the aftermath of this strategic awakening, some playing styles that had previously been considered abhorrent began to be celebrated while other skills that were once championed are now enduring a slow death.</p>
+
+
+
+<p>One of the biggest game-changers derived from the data stemmed from teams asking themselves: ‘Why&nbsp;should we shoot a deep 2-point shot that has a lower percentage of going in than a layup or dunk, but without the reward of getting an extra point?’ In simplest terms, a 50% shooter from 2-point range only needs to make 33% from 3 to produce the same amount of points. The “3 is greater than 2” mindset was born – making layups, dunks, free throws and 3s king and the long 2 a pariah.</p>
+
+
+
+<h3 class="has-text-align-center wp-block-heading"><strong>Tracking the Rise in Possessions per Game Since 2003-04</strong></h3>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td>Season</td><td>2003-04</td><td>2007-08</td><td>2013-14</td><td>2016-17</td><td>2019-20</td></tr><tr><td>Possessions Per Game</td><td>92.6</td><td>94.8</td><td>96.5</td><td>98.8</td><td>101.1</td></tr></tbody></table></figure>
+
+
+
+<p>During Oliver’s tenure with the Kings, the franchise’s D-League team tinkered with a then-wild, data-based experiment in which the Reno Bighorns focused on shooting only 3s and layups, ran a constant full-court press, double-teamed whoever had the ball, crashed the boards, utilized five-man units over one- or two-minute shifts and attempted field goals within the first 12 seconds of the shot clock under innovative coach Dave Arseneault Jr. After a rough start in 2014-15 that led to some adjustments, the Bighorns finished first in the Western Conference the following season when six players averaged at least 14.5 points.</p>
+
+
+
+<p>“You may call it really modified, but that’s what we’re trying to do (in Toronto),” Raptors NBA champion coach Nick Nurse, who had studied Arseneault’s philosophy during his time as a D-League coach, told Sports Illustrated. “We’re trying to get a lot of our players to play positionless basketball. Everyone who hits the floor shoots the 3, and we run a wide-open spacing system that tries to generate those shots. Our G League team (the D-League was renamed G League in 2017-18) is doing it too. Looking back on it, the ideas don’t seem as crazy.”<strong></strong></p>
+
+
+
+<blockquote class="wp-block-quote">
+<p><em><strong>“We’re trying to get a lot of our players to play positionless basketball. Everyone who hits the floor shoots the 3, and we run a wide-open spacing system that tries to generate those shots.” – Raptors coach Nick Nurse</strong></em></p>
+</blockquote>
+
+
+
+<p>That’s because a game that had been played at a plodding pace and dominated by lumbering big men for decades suddenly saw <a href="https://theanalyst.com/na/2021/03/the-modernization-of-nba-offenses-and-why-small-ball-is-here-to-stay/" target="_blank" rel="noreferrer noopener">the pace accelerate at an almost unrecognizable level</a> and the teams’ number of 3-point attempts per game increased to an all-time high for the eighth straight season at 34.1 in 2019-20. It&#8217;s on pace to increase for a ninth straight season in 2020-21 at 34.6 per game through April 12. </p>
+
+
+
+<p>Most <a href="https://theanalyst.com/na/2021/04/why-nikola-jokic-deserves-better-than-a-default-mvp/" target="_blank" rel="noreferrer noopener">big men of this era</a> roam freely around the arc and have the ability to knock down 3s. At the beginning of the last decade, teams put up 18 3-point attempts per game and no club had ever put up 50 3s in a single contest. But things had changed drastically by 2018-19 when teams eclipsed 32.0 3-point attempts per game for the first time. Houston shot at least 60 four times and the Atlanta Hawks did so twice. </p>
+
+
+
+<figure id="figure-1047"class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://theanalyst.com/wp-content/uploads/2021/03/microsoftteams-image-1-1.png" alt="NBA 3-point attempts per game" class="wp-image-1047" width="960" height="775" srcset="https://theanalyst.com/wp-content/uploads/2021/03/microsoftteams-image-1-1.png 1920w, https://theanalyst.com/wp-content/uploads/2021/03/microsoftteams-image-1-1-768x620.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure>
+
+
+
+<p>Stephen Curry, a 6-foot-3 guard out of Davidson, has become a superstar by sinking 3s from nearly half-court and pure mid-range shooting specialists like Calvin Murphy, Alex English and Richard Hamilton are now few-and-far between on NBA rosters.</p>
+
+
+
+<p>An argument could be made that no team has embraced modern metrics more than the Rockets, and no player has represented the new data-driven playing philosophy better than 2017-18 league MVP James Harden. Houston was the first team to shoot 40.0 3-point attempts per game in 2016-17 before averaging&nbsp;an NBA-high 45.3 in 2019-20, just shy of the all-time record 45.4 it had set the previous season.</p>
+
+
+
+<p>It is, of course, by design.</p>
+
+
+
+<figure id="figure-983"class="wp-block-image aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://theanalyst.com/wp-content/uploads/2021/03/screen-shot-2021-03-16-at-122356-pm.png" alt="Rockets shot chart" class="wp-image-983" width="650" height="602" srcset="https://theanalyst.com/wp-content/uploads/2021/03/screen-shot-2021-03-16-at-122356-pm.png 650w, https://theanalyst.com/wp-content/uploads/2021/03/screen-shot-2021-03-16-at-122356-pm-300x278.png 300w" sizes="(max-width: 650px) 100vw, 650px" /><figcaption class="wp-element-caption"><em>The Rockets’ shot chart against the Nets in January 2019.</em></figcaption></figure>
+
+
+
+<p>From 2007 until November of 2020 when he was named the president of basketball operations of the Philadelphia 76ers, analytics-minded general manager Daryl Morey spearheaded the Rockets’ methods, which became affectionately known as “Moreyball” as a nod to Moneyball. He created the true shooting percentage metric and co-founded the annual MIT Sloan Sports Analytics Conference. Though many teams had hired statistical-based analysts during the NBA’s analytics movement, Morey – a former statistical consultant – was the first general manager to be heavily reliant on data.</p>
+
+
+
+<p>The Rockets were extremely successful during Morey’s tenure, posting the second-best record in the NBA over that span with 10 playoff appearances and two trips to the conference finals. Over that time, Harden rose to stardom after being acquired from the Thunder in October of 2012. Fittingly, Morey was the subject of Moneyball author Michael Lewis’ 2016 book ‘The Undoing Project,’ which attempted to shed light on the 2017-18 NBA Executive of the Year’s analytical methods.</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p><em><strong>“Analytics don’t work at all. It’s just crap people who are really smart made up to try to get in the game because they have no talent.” – Charles Barkley</strong></em></p>
+</blockquote>
+
+
+
+<p>But not everybody has been happy with the impact Morey and the analytics movement have had on the game. This became more than apparent in January of 2015 when Hall of Famer Charles Barkley went on a <a href="https://www.google.com/search?q=charles+barkley+on+analytics&amp;rlz=1C5GCEM_enUS1017US1017&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwj7iva2jfr8AhV3jokEHcm0BdUQ0pQJegQIBRAE&amp;biw=1327&amp;bih=643&amp;dpr=1#fpstate=ive&amp;vld=cid:2868cdea,vid:2asGeItzGWM" target="_blank" rel="noreferrer noopener">now-infamous rant on TNT</a> in which he called Morey “one of those idiots who believes in analytics” and added “analytics don’t work at all.&nbsp;It’s just crap people who are really smart made up to try to get in the game because they have no talent.”</p>
+
+
+
+<p>Commissioner Adam Silver, TV networks and fans also became a little rankled about what transpired when a global acceptance of the SportVU system led to a wider use of wearable technology. By 2015-16, more than 20 teams were using SportVU to measure and monitor the intensity, quickness and acceleration of players’ movements and combining that information with data from biomechanical devices worn during practice.</p>
+
+
+
+<p>Golden State players even filled out questionnaires that asked about soreness levels, fatigue, sleep quality, and more as the team sought to maximize recovery and prevent injury. The Warriors’ training staff developed parameters for situations in which it would need to take action: a combination of fatigue and proof of diminished load capacity from the SportVU system and monitoring device. So players who became accustomed to listening to their bodies were now being told that the data knows better.</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p><em><strong>“It’s a trade-off. You want to see this guy in this one game? Or do you want to see him for three more years in his career?&#8221; – Spurs coach Gregg Popovich</strong></em></p>
+</blockquote>
+
+
+
+<p>“A lot of non-contact injuries are fatigue-related,” Keke Lyles, Warriors director of athletic performance from 2013-15, told CBS Sports. “If we see big drops consistently over the last few games, and we know in practice they’ve dropped and they’re telling us they’re tired and sore and beat up, then we start painting a big picture: ‘Yeah, these guys are probably fatigued.’ When they’re fatigued, they’re at a higher risk.”</p>
+
+
+
+<p>This development in the ongoing evolution of the game, however, created an unwanted side effect as teams began to listen to the data and sit players who were approaching that appointed threshold. The controversial &#8220;load management&#8221; strategy became mainstream in 2015-16 when the number of benchings attributed to rest doubled league-wide.</p>
+
+
+
+<p>This wasn’t an entirely new concept as Spurs coach Gregg Popovich was believed to have first started &#8220;resting&#8221; players as early as 2006. And San Antonio was fined $250,000 after unexpectedly sitting four key players for a nationally televised game in 2012.</p>
+
+
+
+<p>“It’s a trade-off,” Popovich told fivethirtyeight.com. “You want to see this guy in this one game? Or do you want to see him for three more years in his career? And do you want to see him in the playoffs because he didn’t get hurt because maybe he got rest?”</p>
+
+
+
+<p>Resting players was one thing, but now teams were actively employing a program to monitor the physiological stress players endure over the course of a season and keeping them sidelined when deemed necessary. Things came to a head in 2017 when the commissioner sent team owners a memo that called the practice of resting healthy players an “extremely significant issue” after the Cleveland Cavaliers sat LeBron James, Kyrie Irving and Kevin Love in a nationally televised game against the Los Angeles Clippers.</p>
+
+
+
+<p>In September of that year, the NBA announced new legislation that gave Silver the ability to fine teams for resting players in several instances, including multiple players outside of unusual circumstances in a single game, and healthy players in nationally televised games. Any violation was to be deemed as conduct detrimental to the league and subject to a fine of at least $100,000.</p>
+
+
+
+<p>The commissioner attempted to meet teams halfway in the load management debate by lowering the average number of times a club has to play on consecutive days. The league average was 12.4 back-to-backs in 2019-20, way down from 19.3 five years ago. Still, load management has seemingly become more accepted as Kawhi Leonard and some media outlets praised the Raptors for their health management of Leonard, who led the franchise to its first title after playing in just 60 games during the 2018-19 regular season.</p>
+
+
+
+<p>&#8220;Loading management is about lowering the threshold of load on a player so that he&#8217;s able to recover and decrease the risk of injury or chronic fatigue,&#8221; Dr. Marcus Elliott, founder and director of the Peak Performance Project, told ESPN.</p>
+
+
+
+<figure id="figure-984"class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://theanalyst.com/wp-content/uploads/2021/03/ap-17226594602152-1024x764.jpg" alt="Cavs sitting on the bench during a game. " class="wp-image-984" width="768" height="573" srcset="https://theanalyst.com/wp-content/uploads/2021/03/ap-17226594602152-1024x764.jpg 1024w, https://theanalyst.com/wp-content/uploads/2021/03/ap-17226594602152-300x224.jpg 300w, https://theanalyst.com/wp-content/uploads/2021/03/ap-17226594602152-768x573.jpg 768w, https://theanalyst.com/wp-content/uploads/2021/03/ap-17226594602152-1536x1146.jpg 1536w, https://theanalyst.com/wp-content/uploads/2021/03/ap-17226594602152-2048x1528.jpg 2048w" sizes="(max-width: 768px) 100vw, 768px" /><figcaption class="wp-element-caption"><em>&#8220;Load management&#8221; became a controversial issue in 2015-16 when the league-wide number of benchings attributed to rest doubled</em>. (AP Photo/Lynne Sladky)</figcaption></figure>
+
+
+
+<p>Selecting a player like Kawhi in the draft can be a game-changer for a franchise, while the wrong move could set the organization back for years. Almost $163 million has been committed to 2019 lottery picks over two-year contracts, but nearly a third of 2011-16 first-round picks are out of the league, including 10 of 84 lottery picks.</p>
+
+
+
+<p>This leads one to wonder if the next big wave of analytics could come from technology that’s able to evaluate prospects in ways that have never been imagined.&nbsp;With so much at stake, making selections based on medical histories, physical measurements, skill evaluations and past performances isn’t enough. Stats Perform, which had previously brought SportVU to the forefront, sought to move beyond in-venue technology to produce tracking data off of broadcast footage with AutoStats.</p>
+
+
+
+<p>With this technology, it’s finally possible to better compare LeBron to Jordan in a variety of different aspects of the game. And by measuring past NBA picks, the AI can use that data to better predict how future draftees will pan out. Since February of 2019, the Orlando Magic have had exclusive rights to use AutoStats data that previously didn’t exist to help analyze collegiate players and improve player evaluation.</p>
+
+
+
+<p>&#8220;In the 2020 draft, we drafted Cole Anthony and we had used AutoStats to assess his performance at North Carolina,&#8221; Magic director of basketball analytics David Bencs said. &#8220;It was well documented, even publicly, that he was playing for an under-talented team that lacked shooting and didn&#8217;t provide enough space for him to operate. With AutoStats, we were able to isolate his performance from his teammates better.&#8221; </p>
+
+
+
+<p>That’s not to say that in-venue camera technology hasn’t carried on. Current NBA tracking technology brings analytics to the fans.&nbsp;Los Angeles Clippers fans have been able to use Second Spectrum’s&nbsp; CourtVision&nbsp;app to view Xs and Os of the offensive plays, real-time shot-making percentages as the player moves on the opponent’s half-court and other visual effects.</p>
+
+
+
+<p>The FIBA Connected Stadium has also emerged through a partnership between Synergy Sports and the International Basketball Federation. It utilizes the latest automated technology to capture live games and enhance broadcasts with commentary and visual overlay graphics.</p>
+
+
+
+<p>With a growing number of Power Five schools and NBA franchises as clients, Noah Basketball is also contributing to player evaluation. The Noah system uses cameras and sensors to identify and analyze aspects of shooting, including the arc, ball rotation, depth, left-right aim and even biomechanics of the player’s form.</p>
+
+
+
+<p>Technology continues to spread across sports as fast as it ever has, and expect basketball to be one of the major players during the next analytics craze.</p>
+
+
+
+<hr class="wp-block-separator has-css-opacity is-style-dots"/>
+
+
+
+<p> <em>Research support provided by Stats Perform. Zachary Moore contributed. </em></p>
+
+      </div>
+    </div>
+  </article>
+
+  
+
+
+
+
+
+    
+                            
+    
+
+    <aside class="related-posts" id="related-posts-948" data-count="2">
+
+                    <div class="related-posts-title">
+                <h3>Related Articles</h3>
+            </div>
+        
+        <div class="related-posts-list related-posts-carousel" style="--post-count: 2">
+                                                
+  
+
+
+    
+
+
+    <article class="teaser--has-image teaser-type--post teaser-vertical" id="tease-24601">
+
+    <div class="thumbnail-wrapper">
+      <a class="thumbnail-link" href="/na/2021/12/the-best-sports-numbers-data-points-and-facts-of-2021/">
+                  <img class="thumbnail" src="https://theanalyst.com/wp-content/uploads/2021/12/21numbers-analyst-banner-1-1024x715.jpg" alt="The 21 Numbers of 2021"
+               srcset="https://theanalyst.com/wp-content/uploads/2021/12/21numbers-analyst-banner-1-1024x715.jpg" sizes="(max-width: 1024px) 100vw, 1024px"
+               loading="lazy" />
+              </a>
+
+              <div class="pills">
+                          <a class="pill" href="/na/sport/american-football/nfl/" style="--start-color:#df306c;--end-color:#e62c4a;">NFL</a>
+                  </div>
+          </div>
+
+    <div class="teaser-content-wrapper">
+      <a class="teaser-content-link" href="/na/2021/12/the-best-sports-numbers-data-points-and-facts-of-2021/">
+        <h4 class="teaser-title">The 21 Numbers of 2021</h4>
+              </a>
+
+      <div class="teaser-byline">
+                  <time datetime="December 30, 2021">2 years ago</time>
+                    <a class="author" href="/na/author/the-analyst/">The Analyst</a>      </div>
+    </div>
+
+  </article>
+                                    
+  
+
+
+    
+
+  
+    <article class="teaser--has-image teaser-type--podcast teaser-type--media teaser-vertical" id="tease-5491">
+
+    <div class="thumbnail-wrapper">
+      <a class="thumbnail-link" href="/na/podcast/state-of-analytics-part-ii-basketball/">
+                  <img class="thumbnail" src="https://theanalyst.com/wp-content/uploads/2021/04/state-of-analytics-podcast-basketball-banner-1024x715.jpg" alt="The State of Analytics, Part II: Basketball"
+               srcset="https://theanalyst.com/wp-content/uploads/2021/04/state-of-analytics-podcast-basketball-banner-1024x715.jpg" sizes="(max-width: 1024px) 100vw, 1024px"
+               loading="lazy" />
+              </a>
+
+              <div class="pills">
+                          <a class="pill" href="/na/sport/basketball/nba/" style="--start-color:#e56329;--end-color:#eb842c;">NBA</a>
+                          <a class="pill" href="/na/media/podcast/" style="--start-color:#653990;--end-color:#471975;">Podcast</a>
+                  </div>
+          </div>
+
+    <div class="teaser-content-wrapper">
+      <a class="teaser-content-link" href="/na/podcast/state-of-analytics-part-ii-basketball/">
+        <h4 class="teaser-title">The State of Analytics, Part II: Basketball</h4>
+              </a>
+
+      <div class="teaser-byline">
+                  <time datetime="April 20, 2021">3 years ago</time>
+                    <a class="author" href="/na/author/justinsweetwood2021u-northwestern-edu/">Justin Sweetwood</a>,     <a class="author" href="/na/author/taylor-bechtold/">Taylor Bechtold</a>      </div>
+    </div>
+
+  </article>
+                                    </div>
+
+    </aside>
+
+    
+
+
+  <footer>
+    <section class="footer">
+  <div class="footer__top">
+
+    <section class="footer__top--subscribe-form">
+        <div class="subscribe-form-footer">
+  <form class="subscribe-form">
+    <div class="subscribe-form-heading">
+      <h3 class="subscribe-form-title">Subscribe</h3>
+      <p class="subscribe-form-description">Sign up and be the first to receive exclusive stats, news, and updates
+        from Opta Analyst.</p>
+    </div>
+
+
+    <div class="subscribe-form-row subscribe-form-row--flex">
+      <label class="subscribe-form-email" aria-label="email">
+        <input name="email" type="email" value="" placeholder="Email Address" aria-required="true"/>
+      </label>
+
+      <div class="subscribe-form-submit">
+        <input type="submit" class="form_button button" value="Sign Up" disabled="disabled">
+      </div>
+    </div>
+
+    <div class="subscribe-form-row">
+      <label class="subscribe-form-name">
+        <input autocomplete="off" type="text" name="name" placeholder="Name" value="">
+      </label>
+
+      <label class="subscribe-form-phone">
+        <input autocomplete="off" type="text" name="phone" value="">
+      </label>
+
+      <label class="subscribe-form-consent">
+        <input class="field-choice-input" name="consent" type="checkbox"/>
+
+        <small>I agree to receive emails from Opta Analyst.<br>See our
+          <a href="https://www.statsperform.com/privacy-policy/" target="_blank">Privacy Policy</a>
+          for more details.</small>
+      </label>
+    </div>
+
+  </form>
+</div>    </section>
+
+    <nav class="footer__top--sports-links">
+          <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-122 menu-item-has-children"href="/na/sport/baseball/">Baseball</a>
+            <div class="sub-nav">
+              <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2087"href="/na/sport/baseball/mlb/">MLB</a>
+      </div>
+        </div>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-115 menu-item-has-children"href="/na/sport/basketball/">Basketball</a>
+            <div class="sub-nav">
+              <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-116"href="/na/sport/basketball/nba/">NBA</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-117"href="/na/sport/basketball/ncaa/">NCAA</a>
+      </div>
+        </div>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-110 menu-item-has-children"href="/na/sport/american-football/">Football</a>
+            <div class="sub-nav">
+              <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-111"href="/na/sport/american-football/nfl/">NFL</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-112"href="/na/sport/american-football/fantasy/">Fantasy</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1602"href="/na/sport/american-football/fbs/">FBS</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-114"href="/na/sport/american-football/fcs/">FCS</a>
+      </div>
+        </div>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-103 menu-item-has-children"href="/na/sport/football/">Soccer</a>
+            <div class="sub-nav">
+              <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-85101"href="/na/2023/08/opta-football-predictions/">Soccer Predictions</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-104"href="/na/sport/football/premier-league/">Premier League</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-105"href="/na/sport/football/champions-league/">Champions League</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-106"href="/na/sport/football/la-liga/">La Liga</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-107"href="/na/sport/football/bundesliga/">Bundesliga</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-108"href="/na/sport/football/serie-a/">Serie A</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-109"href="/na/sport/football/ligue-1/">Ligue 1</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16225"href="/na/sport/football/wsl/">WSL</a>
+      </div>
+        </div>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-121 menu-item-has-children">Other</a>
+            <div class="sub-nav">
+              <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1603"href="/na/sport/golf/">Golf</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1880"href="/na/sport/nhl/">NHL</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1604"href="/na/sport/tennis/">Tennis</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-124"href="/na/sport/rugby/">Rugby</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-125"href="/na/sport/cricket/">Cricket</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8906"href="/na/sport/articulos-en-espanol/">Artículos en Español</a>
+      </div>
+        </div>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126 menu-item-has-children">Media</a>
+            <div class="sub-nav">
+              <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-127"href="/na/media/video/">Video</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-128"href="/na/media/podcast/">Podcast</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85100"href="/na/sign-up/">Opta Analyst Newsletter</a>
+      </div>
+        </div>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99521 menu-item-has-children"href="/na/opta-games/">Free Games</a>
+            <div class="sub-nav">
+              <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-99522"href="https://optamax.theanalyst.com/preview?utm_medium=navigation&utm_source=theanalyst&utm_campaign=landing-page-preview">Opta Max</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-99523"href="https://optafive.theanalyst.com/epl?utm_medium=navigation&utm_source=theanalyst&utm_campaign=optagames">Opta Five</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-99524"href="https://optaplayerratings.theanalyst.com/preview?utm_medium=navigation&utm_source=theanalyst&utm_campaign=landing-page-preview">Opta Player Ratings</a>
+      </div>
+        </div>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-131 menu-item-has-children">Company</a>
+            <div class="sub-nav">
+              <div>
+    <a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"href="/na/about-us/">About Us</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-133"href="/na/advertising/">Advertising</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1496"href="https://www.statsperform.com/careers/"                target="_blank">Careers</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"href="/na/contact-us/">Contact Us</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137"href="https://statsperform.com/"                target="_blank">Stats Perform</a>
+      </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <nav class="footer__bottom">
+      <div class="footer__bottom--social-links">
+            <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-208"href="https://twitter.com/OptaAnalyst"                target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-209"href="https://www.instagram.com/optaanalyst/"                target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-211"href="https://www.youtube.com/channel/UC-H-Ct5v4vVOPXOUa2ljIcQ"                target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+      </div>
+      </div>
+      <div class="footer__bottom--utility-nav">
+          <div class="menu-item menu-item-innactive">&copy;&nbsp;2024 The Analyst. All Rights Reserved.</div>
+            <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2135"href="https://www.statsperform.com/privacy-policy/"                target="_blank">Privacy Policy</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2136"href="https://www.statsperform.com/terms-of-use/"                target="_blank">Terms of Use</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2137"href="https://www.statsperform.com/ccpa-request-form/"                target="_blank">Do Not Sell My Information</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2138"href="/na/advertising/">Advertising</a>
+      </div>
+  <div>
+    <a class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1973"href="/na/cookie-policy/">Cookie Policy</a>
+      </div>
+  <div>
+    <a class="one-trust-preferences menu-item menu-item-type-custom menu-item-object-custom menu-item-1974"href="/na#cookie-preferences">Cookie Preferences</a>
+      </div>
+      </div>
+      <div class="footer__bottom--logo">
+          <a href="https://www.statsperform.com" class="stats-perform--link" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 166"><path d="M614.3 89.5l-21.2 38.8-21-38.8h-15.5v74.9h16v-42.2l14.9 26.4h11.1l14.9-26.8v42.6H630V89.5zm-79.8 47c-.2-.4-.5-.8-.7-1.1 4.1-1.7 7.5-4.8 9.5-8.8 1-1.9 1.7-4 2.1-6.1.4-2.2.6-4.5.6-6.7.1-3.5-.5-6.9-1.7-10.2-1.1-2.9-2.8-5.5-5-7.7s-4.9-3.8-7.9-4.8c-3.3-1.1-6.8-1.7-10.3-1.6h-33.5v74.9h17.2v-26.6h4.3c1.3 0 2.5.1 3.8.3 1 .1 1.9.5 2.7 1 .8.5 1.5 1.2 2.1 1.9.7 1 1.3 2 1.8 3.1l9.8 20.4h19.9L536 139.1c-.7-1.1-1.2-2-1.5-2.6zm-8.6-16.3c-1.5 1.5-3.7 2.2-6.5 2.2h-14.7v-17.3h14.7c2.8 0 5 .8 6.5 2.3 1.5 1.5 2.3 3.7 2.3 6.4 0 2.8-.8 4.9-2.3 6.4zM470 95.4c-5.4-5-13.1-7.5-23.1-7.5-9.9 0-17.6 2.5-23 7.5-5.4 5-8.1 12-8.1 20.9v21.3c0 8.9 2.7 15.9 8.1 20.9s13.1 7.5 23 7.5c10 0 17.7-2.5 23.1-7.5 5.4-5 8.1-12 8.1-20.9v-21.3c0-8.9-2.7-15.9-8.1-20.9zm-9.1 42.5c0 8.2-4.7 12.3-14 12.3-4.5 0-8-1-10.3-3.1s-3.6-5.2-3.6-9.2V116c0-4.1 1.2-7.2 3.6-9.2 2.4-2.1 5.8-3.1 10.4-3.1 9.3 0 14 4.1 14 12.3l-.1 21.9zm-102.7 26.5h17.2v-28.6h23.4l5.2-15.6h-28.6v-15.1h33.9V89.5h-51.1zm-20.6-25.3c-.6-1.1-1.1-2-1.5-2.6-.2-.4-.5-.8-.7-1.1 2.1-.9 4-2.1 5.7-3.7 1.5-1.5 2.8-3.2 3.8-5.1 1-1.9 1.7-4 2.1-6.1.4-2.2.6-4.5.6-6.7.1-3.5-.5-6.9-1.7-10.2-1.1-2.9-2.8-5.5-5-7.7s-4.9-3.8-7.9-4.8c-3.3-1.1-6.8-1.7-10.3-1.6h-33.6v74.9h17.2v-26.6h4.3c1.3 0 2.5.1 3.8.3 1 .1 1.9.5 2.7 1 .8.5 1.5 1.2 2.1 1.9.7 1 1.3 2 1.8 3.1l9.8 20.4h19.9l-13.1-25.4zm-10.1-18.9c-1.5 1.5-3.7 2.2-6.5 2.2h-14.7v-17.3H321c2.8 0 5 .8 6.5 2.3 1.5 1.5 2.3 3.7 2.3 6.4 0 2.8-.8 4.9-2.3 6.4zM246 134.3h23.2l5.2-15.6H246v-13.6h33.9V89.5h-51.1v74.9h52.1v-15.7H246zm-32.1-38c-2.3-2.2-5.1-3.9-8.1-5-3.5-1.2-7.1-1.8-10.8-1.7h-32.6v74.9h17.2v-59.3h13.6c3.2 0 5.6.9 7.3 2.6 1.7 1.7 2.5 4.1 2.5 7.1s-.8 5.4-2.5 7-4.1 2.5-7.3 2.5h-4.1l-5.2 15.7H195c3.7.1 7.3-.5 10.8-1.7 3-1.1 5.8-2.7 8.1-5 2.3-2.2 4-4.9 5.1-7.9 2.4-6.9 2.4-14.3 0-21.2-1.1-3.1-2.9-5.8-5.1-8zm259.7-19.9c3.6-1 6.9-2.6 9.9-4.9 2.6-2 4.8-4.7 6.2-7.7 1.5-3.1 2.2-6.5 2.2-10 0-4.4-.7-8-2.2-10.8-1.4-2.7-3.5-5-6-6.7-2.7-1.8-5.6-3-8.7-3.8-3.4-.9-6.9-1.5-10.3-1.9-1.3-.1-2.4-.3-3.4-.4s-2-.3-2.8-.4c-.8-.1-1.6-.3-2.4-.5-.7-.2-1.5-.5-2.4-.7-3.2-1.1-4.9-3-4.9-5.7 0-2.5 1-4.4 2.9-5.5 1.9-1.2 5.1-1.7 9.5-1.7 6 0 10.1 2.3 12.4 7l1.4 2.7 15.8-6.9-1.4-3c-2.5-5.3-5.9-9.2-10.4-11.7-4.4-2.5-10.4-3.8-17.9-3.8-4.3-.1-8.6.5-12.8 1.7-3.4 1-6.6 2.6-9.5 4.9-2.5 2-4.5 4.5-5.8 7.4-1.4 3-2 6.3-2 9.6.3 4.7 1.2 8.5 2.9 11.3 1.5 2.7 3.7 5 6.3 6.6 2.8 1.7 5.9 2.8 9.1 3.4 3.4.7 7.1 1.2 11 1.7 4.7.5 8.2 1.3 10.6 2.4 2.4 1.1 3.6 2.8 3.7 5.2 0 5.6-4.7 8.3-14 8.3-6.8 0-11.4-2.4-13.6-7.3-.1-.3-.2-.5-.3-.8-.2-.4-.4-.8-.6-1.3-.3-.6-.6-1.2-.8-1.8L429.4 57l1.5 4c4.2 11.4 14.1 17.1 29.6 17.1 4.4 0 8.8-.5 13.1-1.7zM422.9 1.6h-62.4l4.9 15.6h21.7v59.3h17.1V17.2h18.7zM319.2 76.5l2.2-6.7 2.4-7.1 4.6-13.9 2.2-6.7 4.1-12.1 2.3-6.9 8.4 25.7h-11.5l-4.6 13.9h20.6l4.6 13.8h18.8l-28-74.9h-16l-28.2 74.9zM314 1.6h-64.5v15.6h20.8v59.3h17.1V17.2h21.5zM212.8 78.1c4.4.1 8.8-.5 13.1-1.7 3.6-1 6.9-2.6 9.9-4.9 2.6-2 4.8-4.7 6.2-7.7 1.5-3.1 2.2-6.5 2.2-10 0-4.4-.7-8-2.2-10.8-1.4-2.7-3.5-5-6-6.7-2.7-1.8-5.6-3-8.8-3.8-3.4-.9-6.9-1.5-10.3-1.9-1.3-.1-2.4-.3-3.4-.4-1-.1-2-.3-2.8-.4-.8-.1-1.6-.3-2.4-.5-.7-.2-1.5-.5-2.4-.7-3.2-1.1-4.9-3-4.9-5.7 0-2.5 1-4.4 2.9-5.5s5.1-1.7 9.5-1.7c6 0 10.1 2.3 12.4 7l1.4 2.7 15.8-6.9-1.4-3c-2.4-5.3-5.9-9.2-10.3-11.7S220.9 0 213.4 0c-4.3-.1-8.6.5-12.8 1.7-3.4 1-6.6 2.6-9.4 4.9-2.5 2-4.5 4.5-5.9 7.4-1.4 3-2 6.3-2 9.6.3 4.7 1.2 8.5 2.9 11.3 1.5 2.7 3.7 5 6.3 6.6 2.8 1.7 5.9 2.8 9.1 3.4 3.4.7 7.1 1.2 11 1.7 4.6.5 8.2 1.3 10.6 2.4 2.4 1.1 3.6 2.8 3.6 5.2 0 5.6-4.7 8.3-14 8.3-6.8 0-11.4-2.4-13.6-7.3-.1-.3-.2-.5-.3-.8-.2-.4-.4-.8-.6-1.3-.3-.6-.6-1.2-.8-1.8L181.7 57l1.5 4c4.2 11.4 14 17.1 29.6 17.1zM105.8 0L50.7 166H21.9L77 0h28.8zm1.6 39.3l-30.7 92.5h28.9l30.7-92.5h-28.9zM57.1 16H28.2L0 101h28.9l28.2-85z" fill="#fff"/></svg>
+          </a>
+      </div>
+      <div class="menu-item menu-item-innactive menu-item-mobile">&copy;&nbsp;2024 The Analyst. All Rights Reserved.</div>
+  </nav>
+</section>
+  </footer>
+
+<script type="text/javascript" src="https://theanalyst.com/wp-content/themes/the-analyst-theme/dist/js/bundle.js?ver=d80efa05619288308270fd2a312b596b" id="the-analyst-theme-scripts-js"></script>
+<script type="text/javascript" src="https://theanalyst.com/wp-content/themes/the-analyst-theme/dist/js/bundle-single.js?ver=1fc9df6e4cf7918bc111652295e8c8c6" id="the-analyst-theme-post-scripts-js"></script>
+<script type="text/javascript" async src="https://platform.twitter.com/widgets.js?ver=5.0.0" id="twitter-widgets-js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.1/iframeResizer.min.js?ver=4.3.1" id="iframe-resizer-js"></script>
+<script type="text/javascript" src="https://theanalyst.com/wp-content/plugins/opta-games-leaderboards/build/index.js" id="opta-games-leaderboard-scripts-js"></script>
+<script type="text/javascript" src="https://theanalyst.com/wp-content/plugins/opta-games-widgets/build/player-sorting-ad/index.js" id="opta-games-widgets-psa-scripts-js"></script>
+        <script type="text/javascript">
+            /* <![CDATA[ */
+           document.querySelectorAll("ul.nav-menu").forEach(
+               ulist => { 
+                    if (ulist.querySelectorAll("li").length == 0) {
+                        ulist.style.display = "none";
+
+                                            } 
+                }
+           );
+            /* ]]> */
+        </script>
+        
+
+  <!-- Fathom Analytics -->
+  <script src="https://bloc-party-lovely.theanalyst.com/script.js" data-site="DGFKDFQV" defer></script>
+  <!-- End Fathom Analytics embed -->
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-034728da04015584270","applicationID":"1522649431","transactionName":"ZV1UNURRDxEHAkNRX1wXdwJCWQ4MSRJeVldeXQ==","queueTime":0,"applicationTime":1157,"atts":"SRpXQwxLHB8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+<!-- plugin=object-cache-pro client=phpredis metric#hits=10491 metric#misses=152 metric#hit-ratio=98.6 metric#bytes=3929180 metric#prefetches=854 metric#store-reads=164 metric#store-writes=102 metric#store-hits=904 metric#store-misses=141 metric#sql-queries=40 metric#ms-total=1152.99 metric#ms-cache=135.88 metric#ms-cache-avg=0.5127 metric#ms-cache-ratio=11.8 -->
